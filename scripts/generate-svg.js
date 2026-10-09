@@ -81,7 +81,7 @@ function gql(query, variables = {}) {
         headers:  {
           Authorization:  `Bearer ${TOKEN}`,
           'Content-Type': 'application/json',
-          'User-Agent':   'erikkopcha-metrics/1.0',
+          'User-Agent':   'deluminor-metrics/1.0',
           'Content-Length': Buffer.byteLength(body),
         },
       },

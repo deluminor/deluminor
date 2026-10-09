@@ -33,7 +33,7 @@ jobs:
       - name: Generate SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: erikkopcha
+          GITHUB_USERNAME: deluminor
         run: node scripts/generate-svg.js
 
       - name: Push SVG to output-3d-contrib branch
