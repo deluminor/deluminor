@@ -1,0 +1,1886 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="375" viewBox="0 0 980 375">
+<defs>
+  <style>
+    @keyframes growUp {
+      0%   { transform: scaleY(0); opacity: 0   }
+      60%  { opacity: 1                          }
+      100% { transform: scaleY(1)                }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px) }
+      to   { opacity: 1; transform: translateY(0)   }
+    }
+  </style>
+
+  <!-- Cyan glow for maximum-contribution cubes -->
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<!-- Background -->
+<rect width="980" height="375" fill="#0D1117"/>
+
+<!-- 3D Isometric Contribution Calendar -->
+<g style="transform-origin:390.0px 76.0px;animation:growUp 280ms ease-out 0ms both">
+    <polygon points="390.0,76.0 400.0,71.0 400.0,69.0 390.0,74.0"  fill="#161B22"/>
+    <polygon points="390.0,76.0 380.0,71.0 380.0,69.0 390.0,74.0" fill="#161B22"/>
+    <polygon points="390.0,74.0 400.0,69.0 390.0,64.0 380.0,69.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:380.0px 81.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 0ms both">
+    <polygon points="380.0,81.0 390.0,76.0 390.0,60.0 380.0,65.0"  fill="#003A4D"/>
+    <polygon points="380.0,81.0 370.0,76.0 370.0,60.0 380.0,65.0" fill="#002633"/>
+    <polygon points="380.0,65.0 390.0,60.0 380.0,55.0 370.0,60.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:400.0px 81.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 14ms both">
+    <polygon points="400.0,81.0 410.0,76.0 410.0,60.0 400.0,65.0"  fill="#003A4D"/>
+    <polygon points="400.0,81.0 390.0,76.0 390.0,60.0 400.0,65.0" fill="#002633"/>
+    <polygon points="400.0,65.0 410.0,60.0 400.0,55.0 390.0,60.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:390.0px 86.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 14ms both">
+    <polygon points="390.0,86.0 400.0,81.0 400.0,65.0 390.0,70.0"  fill="#003A4D"/>
+    <polygon points="390.0,86.0 380.0,81.0 380.0,65.0 390.0,70.0" fill="#002633"/>
+    <polygon points="390.0,70.0 400.0,65.0 390.0,60.0 380.0,65.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:410.0px 86.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 28ms both">
+    <polygon points="410.0,86.0 420.0,81.0 420.0,65.0 410.0,70.0"  fill="#003A4D"/>
+    <polygon points="410.0,86.0 400.0,81.0 400.0,65.0 410.0,70.0" fill="#002633"/>
+    <polygon points="410.0,70.0 420.0,65.0 410.0,60.0 400.0,65.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:380.0px 91.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 14ms both">
+    <polygon points="380.0,91.0 390.0,86.0 390.0,70.0 380.0,75.0"  fill="#003A4D"/>
+    <polygon points="380.0,91.0 370.0,86.0 370.0,70.0 380.0,75.0" fill="#002633"/>
+    <polygon points="380.0,75.0 390.0,70.0 380.0,65.0 370.0,70.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:400.0px 91.0px;animation:growUp 280ms ease-out 28ms both">
+    <polygon points="400.0,91.0 410.0,86.0 410.0,84.0 400.0,89.0"  fill="#161B22"/>
+    <polygon points="400.0,91.0 390.0,86.0 390.0,84.0 400.0,89.0" fill="#161B22"/>
+    <polygon points="400.0,89.0 410.0,84.0 400.0,79.0 390.0,84.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:420.0px 91.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 42ms both">
+    <polygon points="420.0,91.0 430.0,86.0 430.0,70.0 420.0,75.0"  fill="#003A4D"/>
+    <polygon points="420.0,91.0 410.0,86.0 410.0,70.0 420.0,75.0" fill="#002633"/>
+    <polygon points="420.0,75.0 430.0,70.0 420.0,65.0 410.0,70.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:370.0px 96.0px;animation:growUp 280ms ease-out 14ms both">
+    <polygon points="370.0,96.0 380.0,91.0 380.0,89.0 370.0,94.0"  fill="#161B22"/>
+    <polygon points="370.0,96.0 360.0,91.0 360.0,89.0 370.0,94.0" fill="#161B22"/>
+    <polygon points="370.0,94.0 380.0,89.0 370.0,84.0 360.0,89.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:390.0px 96.0px;animation:growUp 280ms ease-out 28ms both">
+    <polygon points="390.0,96.0 400.0,91.0 400.0,89.0 390.0,94.0"  fill="#161B22"/>
+    <polygon points="390.0,96.0 380.0,91.0 380.0,89.0 390.0,94.0" fill="#161B22"/>
+    <polygon points="390.0,94.0 400.0,89.0 390.0,84.0 380.0,89.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:410.0px 96.0px;animation:growUp 280ms ease-out 42ms both">
+    <polygon points="410.0,96.0 420.0,91.0 420.0,89.0 410.0,94.0"  fill="#161B22"/>
+    <polygon points="410.0,96.0 400.0,91.0 400.0,89.0 410.0,94.0" fill="#161B22"/>
+    <polygon points="410.0,94.0 420.0,89.0 410.0,84.0 400.0,89.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:430.0px 96.0px;animation:growUp 280ms ease-out 56ms both">
+    <polygon points="430.0,96.0 440.0,91.0 440.0,89.0 430.0,94.0"  fill="#161B22"/>
+    <polygon points="430.0,96.0 420.0,91.0 420.0,89.0 430.0,94.0" fill="#161B22"/>
+    <polygon points="430.0,94.0 440.0,89.0 430.0,84.0 420.0,89.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:360.0px 101.0px;animation:growUp 280ms ease-out 14ms both">
+    <polygon points="360.0,101.0 370.0,96.0 370.0,94.0 360.0,99.0"  fill="#161B22"/>
+    <polygon points="360.0,101.0 350.0,96.0 350.0,94.0 360.0,99.0" fill="#161B22"/>
+    <polygon points="360.0,99.0 370.0,94.0 360.0,89.0 350.0,94.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:380.0px 101.0px;animation:growUp 280ms ease-out 28ms both">
+    <polygon points="380.0,101.0 390.0,96.0 390.0,94.0 380.0,99.0"  fill="#161B22"/>
+    <polygon points="380.0,101.0 370.0,96.0 370.0,94.0 380.0,99.0" fill="#161B22"/>
+    <polygon points="380.0,99.0 390.0,94.0 380.0,89.0 370.0,94.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:400.0px 101.0px;animation:growUp 280ms ease-out 42ms both">
+    <polygon points="400.0,101.0 410.0,96.0 410.0,94.0 400.0,99.0"  fill="#161B22"/>
+    <polygon points="400.0,101.0 390.0,96.0 390.0,94.0 400.0,99.0" fill="#161B22"/>
+    <polygon points="400.0,99.0 410.0,94.0 400.0,89.0 390.0,94.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:420.0px 101.0px;animation:growUp 280ms ease-out 56ms both">
+    <polygon points="420.0,101.0 430.0,96.0 430.0,94.0 420.0,99.0"  fill="#161B22"/>
+    <polygon points="420.0,101.0 410.0,96.0 410.0,94.0 420.0,99.0" fill="#161B22"/>
+    <polygon points="420.0,99.0 430.0,94.0 420.0,89.0 410.0,94.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:440.0px 101.0px;animation:growUp 280ms ease-out 70ms both">
+    <polygon points="440.0,101.0 450.0,96.0 450.0,94.0 440.0,99.0"  fill="#161B22"/>
+    <polygon points="440.0,101.0 430.0,96.0 430.0,94.0 440.0,99.0" fill="#161B22"/>
+    <polygon points="440.0,99.0 450.0,94.0 440.0,89.0 430.0,94.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:350.0px 106.0px;animation:growUp 280ms ease-out 14ms both">
+    <polygon points="350.0,106.0 360.0,101.0 360.0,99.0 350.0,104.0"  fill="#161B22"/>
+    <polygon points="350.0,106.0 340.0,101.0 340.0,99.0 350.0,104.0" fill="#161B22"/>
+    <polygon points="350.0,104.0 360.0,99.0 350.0,94.0 340.0,99.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:370.0px 106.0px;animation:growUp 280ms ease-out 28ms both">
+    <polygon points="370.0,106.0 380.0,101.0 380.0,99.0 370.0,104.0"  fill="#161B22"/>
+    <polygon points="370.0,106.0 360.0,101.0 360.0,99.0 370.0,104.0" fill="#161B22"/>
+    <polygon points="370.0,104.0 380.0,99.0 370.0,94.0 360.0,99.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:390.0px 106.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 42ms both">
+    <polygon points="390.0,106.0 400.0,101.0 400.0,85.0 390.0,90.0"  fill="#003A4D"/>
+    <polygon points="390.0,106.0 380.0,101.0 380.0,85.0 390.0,90.0" fill="#002633"/>
+    <polygon points="390.0,90.0 400.0,85.0 390.0,80.0 380.0,85.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:410.0px 106.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 56ms both">
+    <polygon points="410.0,106.0 420.0,101.0 420.0,85.0 410.0,90.0"  fill="#003A4D"/>
+    <polygon points="410.0,106.0 400.0,101.0 400.0,85.0 410.0,90.0" fill="#002633"/>
+    <polygon points="410.0,90.0 420.0,85.0 410.0,80.0 400.0,85.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:430.0px 106.0px;animation:growUp 280ms ease-out 70ms both">
+    <polygon points="430.0,106.0 440.0,101.0 440.0,99.0 430.0,104.0"  fill="#161B22"/>
+    <polygon points="430.0,106.0 420.0,101.0 420.0,99.0 430.0,104.0" fill="#161B22"/>
+    <polygon points="430.0,104.0 440.0,99.0 430.0,94.0 420.0,99.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:450.0px 106.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 84ms both">
+    <polygon points="450.0,106.0 460.0,101.0 460.0,85.0 450.0,90.0"  fill="#003A4D"/>
+    <polygon points="450.0,106.0 440.0,101.0 440.0,85.0 450.0,90.0" fill="#002633"/>
+    <polygon points="450.0,90.0 460.0,85.0 450.0,80.0 440.0,85.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:340.0px 111.0px;animation:growUp 280ms ease-out 14ms both">
+    <polygon points="340.0,111.0 350.0,106.0 350.0,104.0 340.0,109.0"  fill="#161B22"/>
+    <polygon points="340.0,111.0 330.0,106.0 330.0,104.0 340.0,109.0" fill="#161B22"/>
+    <polygon points="340.0,109.0 350.0,104.0 340.0,99.0 330.0,104.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:360.0px 111.0px;animation:growUp 280ms ease-out 28ms both">
+    <polygon points="360.0,111.0 370.0,106.0 370.0,104.0 360.0,109.0"  fill="#161B22"/>
+    <polygon points="360.0,111.0 350.0,106.0 350.0,104.0 360.0,109.0" fill="#161B22"/>
+    <polygon points="360.0,109.0 370.0,104.0 360.0,99.0 350.0,104.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:380.0px 111.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 42ms both">
+    <polygon points="380.0,111.0 390.0,106.0 390.0,90.0 380.0,95.0"  fill="#003A4D"/>
+    <polygon points="380.0,111.0 370.0,106.0 370.0,90.0 380.0,95.0" fill="#002633"/>
+    <polygon points="380.0,95.0 390.0,90.0 380.0,85.0 370.0,90.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:400.0px 111.0px;animation:growUp 280ms ease-out 56ms both">
+    <polygon points="400.0,111.0 410.0,106.0 410.0,104.0 400.0,109.0"  fill="#161B22"/>
+    <polygon points="400.0,111.0 390.0,106.0 390.0,104.0 400.0,109.0" fill="#161B22"/>
+    <polygon points="400.0,109.0 410.0,104.0 400.0,99.0 390.0,104.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:420.0px 111.0px;animation:growUp 280ms ease-out 70ms both">
+    <polygon points="420.0,111.0 430.0,106.0 430.0,104.0 420.0,109.0"  fill="#161B22"/>
+    <polygon points="420.0,111.0 410.0,106.0 410.0,104.0 420.0,109.0" fill="#161B22"/>
+    <polygon points="420.0,109.0 430.0,104.0 420.0,99.0 410.0,104.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:440.0px 111.0px;animation:growUp 280ms ease-out 84ms both">
+    <polygon points="440.0,111.0 450.0,106.0 450.0,104.0 440.0,109.0"  fill="#161B22"/>
+    <polygon points="440.0,111.0 430.0,106.0 430.0,104.0 440.0,109.0" fill="#161B22"/>
+    <polygon points="440.0,109.0 450.0,104.0 440.0,99.0 430.0,104.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:460.0px 111.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 98ms both">
+    <polygon points="460.0,111.0 470.0,106.0 470.0,90.0 460.0,95.0"  fill="#003A4D"/>
+    <polygon points="460.0,111.0 450.0,106.0 450.0,90.0 460.0,95.0" fill="#002633"/>
+    <polygon points="460.0,95.0 470.0,90.0 460.0,85.0 450.0,90.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:350.0px 116.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 28ms both">
+    <polygon points="350.0,116.0 360.0,111.0 360.0,95.0 350.0,100.0"  fill="#003A4D"/>
+    <polygon points="350.0,116.0 340.0,111.0 340.0,95.0 350.0,100.0" fill="#002633"/>
+    <polygon points="350.0,100.0 360.0,95.0 350.0,90.0 340.0,95.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:370.0px 116.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 42ms both">
+    <polygon points="370.0,116.0 380.0,111.0 380.0,95.0 370.0,100.0"  fill="#003A4D"/>
+    <polygon points="370.0,116.0 360.0,111.0 360.0,95.0 370.0,100.0" fill="#002633"/>
+    <polygon points="370.0,100.0 380.0,95.0 370.0,90.0 360.0,95.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:390.0px 116.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 56ms both">
+    <polygon points="390.0,116.0 400.0,111.0 400.0,95.0 390.0,100.0"  fill="#003A4D"/>
+    <polygon points="390.0,116.0 380.0,111.0 380.0,95.0 390.0,100.0" fill="#002633"/>
+    <polygon points="390.0,100.0 400.0,95.0 390.0,90.0 380.0,95.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:410.0px 116.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 70ms both">
+    <polygon points="410.0,116.0 420.0,111.0 420.0,95.0 410.0,100.0"  fill="#003A4D"/>
+    <polygon points="410.0,116.0 400.0,111.0 400.0,95.0 410.0,100.0" fill="#002633"/>
+    <polygon points="410.0,100.0 420.0,95.0 410.0,90.0 400.0,95.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:430.0px 116.0px;animation:growUp 280ms ease-out 84ms both">
+    <polygon points="430.0,116.0 440.0,111.0 440.0,109.0 430.0,114.0"  fill="#161B22"/>
+    <polygon points="430.0,116.0 420.0,111.0 420.0,109.0 430.0,114.0" fill="#161B22"/>
+    <polygon points="430.0,114.0 440.0,109.0 430.0,104.0 420.0,109.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:450.0px 116.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 98ms both">
+    <polygon points="450.0,116.0 460.0,111.0 460.0,95.0 450.0,100.0"  fill="#003A4D"/>
+    <polygon points="450.0,116.0 440.0,111.0 440.0,95.0 450.0,100.0" fill="#002633"/>
+    <polygon points="450.0,100.0 460.0,95.0 450.0,90.0 440.0,95.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:470.0px 116.0px;animation:growUp 280ms ease-out 112ms both">
+    <polygon points="470.0,116.0 480.0,111.0 480.0,109.0 470.0,114.0"  fill="#161B22"/>
+    <polygon points="470.0,116.0 460.0,111.0 460.0,109.0 470.0,114.0" fill="#161B22"/>
+    <polygon points="470.0,114.0 480.0,109.0 470.0,104.0 460.0,109.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:360.0px 121.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 42ms both">
+    <polygon points="360.0,121.0 370.0,116.0 370.0,100.0 360.0,105.0"  fill="#003A4D"/>
+    <polygon points="360.0,121.0 350.0,116.0 350.0,100.0 360.0,105.0" fill="#002633"/>
+    <polygon points="360.0,105.0 370.0,100.0 360.0,95.0 350.0,100.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:380.0px 121.0px;animation:growUp 280ms ease-out 56ms both">
+    <polygon points="380.0,121.0 390.0,116.0 390.0,114.0 380.0,119.0"  fill="#161B22"/>
+    <polygon points="380.0,121.0 370.0,116.0 370.0,114.0 380.0,119.0" fill="#161B22"/>
+    <polygon points="380.0,119.0 390.0,114.0 380.0,109.0 370.0,114.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:400.0px 121.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 70ms both">
+    <polygon points="400.0,121.0 410.0,116.0 410.0,100.0 400.0,105.0"  fill="#003A4D"/>
+    <polygon points="400.0,121.0 390.0,116.0 390.0,100.0 400.0,105.0" fill="#002633"/>
+    <polygon points="400.0,105.0 410.0,100.0 400.0,95.0 390.0,100.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:420.0px 121.0px;animation:growUp 280ms ease-out 84ms both">
+    <polygon points="420.0,121.0 430.0,116.0 430.0,114.0 420.0,119.0"  fill="#161B22"/>
+    <polygon points="420.0,121.0 410.0,116.0 410.0,114.0 420.0,119.0" fill="#161B22"/>
+    <polygon points="420.0,119.0 430.0,114.0 420.0,109.0 410.0,114.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:440.0px 121.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 98ms both">
+    <polygon points="440.0,121.0 450.0,116.0 450.0,100.0 440.0,105.0"  fill="#003A4D"/>
+    <polygon points="440.0,121.0 430.0,116.0 430.0,100.0 440.0,105.0" fill="#002633"/>
+    <polygon points="440.0,105.0 450.0,100.0 440.0,95.0 430.0,100.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:460.0px 121.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 112ms both">
+    <polygon points="460.0,121.0 470.0,116.0 470.0,100.0 460.0,105.0"  fill="#003A4D"/>
+    <polygon points="460.0,121.0 450.0,116.0 450.0,100.0 460.0,105.0" fill="#002633"/>
+    <polygon points="460.0,105.0 470.0,100.0 460.0,95.0 450.0,100.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:480.0px 121.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 126ms both">
+    <polygon points="480.0,121.0 490.0,116.0 490.0,100.0 480.0,105.0"  fill="#003A4D"/>
+    <polygon points="480.0,121.0 470.0,116.0 470.0,100.0 480.0,105.0" fill="#002633"/>
+    <polygon points="480.0,105.0 490.0,100.0 480.0,95.0 470.0,100.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:370.0px 126.0px;animation:growUp 280ms ease-out 56ms both">
+    <polygon points="370.0,126.0 380.0,121.0 380.0,119.0 370.0,124.0"  fill="#161B22"/>
+    <polygon points="370.0,126.0 360.0,121.0 360.0,119.0 370.0,124.0" fill="#161B22"/>
+    <polygon points="370.0,124.0 380.0,119.0 370.0,114.0 360.0,119.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:390.0px 126.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 70ms both">
+    <polygon points="390.0,126.0 400.0,121.0 400.0,105.0 390.0,110.0"  fill="#003A4D"/>
+    <polygon points="390.0,126.0 380.0,121.0 380.0,105.0 390.0,110.0" fill="#002633"/>
+    <polygon points="390.0,110.0 400.0,105.0 390.0,100.0 380.0,105.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:410.0px 126.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 84ms both">
+    <polygon points="410.0,126.0 420.0,121.0 420.0,105.0 410.0,110.0"  fill="#003A4D"/>
+    <polygon points="410.0,126.0 400.0,121.0 400.0,105.0 410.0,110.0" fill="#002633"/>
+    <polygon points="410.0,110.0 420.0,105.0 410.0,100.0 400.0,105.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:430.0px 126.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 98ms both">
+    <polygon points="430.0,126.0 440.0,121.0 440.0,105.0 430.0,110.0"  fill="#003A4D"/>
+    <polygon points="430.0,126.0 420.0,121.0 420.0,105.0 430.0,110.0" fill="#002633"/>
+    <polygon points="430.0,110.0 440.0,105.0 430.0,100.0 420.0,105.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:450.0px 126.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 112ms both">
+    <polygon points="450.0,126.0 460.0,121.0 460.0,105.0 450.0,110.0"  fill="#003A4D"/>
+    <polygon points="450.0,126.0 440.0,121.0 440.0,105.0 450.0,110.0" fill="#002633"/>
+    <polygon points="450.0,110.0 460.0,105.0 450.0,100.0 440.0,105.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:470.0px 126.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 126ms both">
+    <polygon points="470.0,126.0 480.0,121.0 480.0,105.0 470.0,110.0"  fill="#003A4D"/>
+    <polygon points="470.0,126.0 460.0,121.0 460.0,105.0 470.0,110.0" fill="#002633"/>
+    <polygon points="470.0,110.0 480.0,105.0 470.0,100.0 460.0,105.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:490.0px 126.0px;animation:growUp 280ms ease-out 140ms both">
+    <polygon points="490.0,126.0 500.0,121.0 500.0,119.0 490.0,124.0"  fill="#161B22"/>
+    <polygon points="490.0,126.0 480.0,121.0 480.0,119.0 490.0,124.0" fill="#161B22"/>
+    <polygon points="490.0,124.0 500.0,119.0 490.0,114.0 480.0,119.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:380.0px 131.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 70ms both">
+    <polygon points="380.0,131.0 390.0,126.0 390.0,110.0 380.0,115.0"  fill="#003A4D"/>
+    <polygon points="380.0,131.0 370.0,126.0 370.0,110.0 380.0,115.0" fill="#002633"/>
+    <polygon points="380.0,115.0 390.0,110.0 380.0,105.0 370.0,110.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:400.0px 131.0px;animation:growUp 280ms ease-out 84ms both">
+    <polygon points="400.0,131.0 410.0,126.0 410.0,124.0 400.0,129.0"  fill="#161B22"/>
+    <polygon points="400.0,131.0 390.0,126.0 390.0,124.0 400.0,129.0" fill="#161B22"/>
+    <polygon points="400.0,129.0 410.0,124.0 400.0,119.0 390.0,124.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:420.0px 131.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 98ms both">
+    <polygon points="420.0,131.0 430.0,126.0 430.0,110.0 420.0,115.0"  fill="#003A4D"/>
+    <polygon points="420.0,131.0 410.0,126.0 410.0,110.0 420.0,115.0" fill="#002633"/>
+    <polygon points="420.0,115.0 430.0,110.0 420.0,105.0 410.0,110.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:440.0px 131.0px;animation:growUp 280ms ease-out 112ms both">
+    <polygon points="440.0,131.0 450.0,126.0 450.0,124.0 440.0,129.0"  fill="#161B22"/>
+    <polygon points="440.0,131.0 430.0,126.0 430.0,124.0 440.0,129.0" fill="#161B22"/>
+    <polygon points="440.0,129.0 450.0,124.0 440.0,119.0 430.0,124.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:460.0px 131.0px;animation:growUp 280ms ease-out 126ms both">
+    <polygon points="460.0,131.0 470.0,126.0 470.0,124.0 460.0,129.0"  fill="#161B22"/>
+    <polygon points="460.0,131.0 450.0,126.0 450.0,124.0 460.0,129.0" fill="#161B22"/>
+    <polygon points="460.0,129.0 470.0,124.0 460.0,119.0 450.0,124.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:480.0px 131.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 140ms both">
+    <polygon points="480.0,131.0 490.0,126.0 490.0,110.0 480.0,115.0"  fill="#003A4D"/>
+    <polygon points="480.0,131.0 470.0,126.0 470.0,110.0 480.0,115.0" fill="#002633"/>
+    <polygon points="480.0,115.0 490.0,110.0 480.0,105.0 470.0,110.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:500.0px 131.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 154ms both">
+    <polygon points="500.0,131.0 510.0,126.0 510.0,110.0 500.0,115.0"  fill="#003A4D"/>
+    <polygon points="500.0,131.0 490.0,126.0 490.0,110.0 500.0,115.0" fill="#002633"/>
+    <polygon points="500.0,115.0 510.0,110.0 500.0,105.0 490.0,110.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:390.0px 136.0px;animation:growUp 280ms ease-out 84ms both">
+    <polygon points="390.0,136.0 400.0,131.0 400.0,129.0 390.0,134.0"  fill="#161B22"/>
+    <polygon points="390.0,136.0 380.0,131.0 380.0,129.0 390.0,134.0" fill="#161B22"/>
+    <polygon points="390.0,134.0 400.0,129.0 390.0,124.0 380.0,129.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:410.0px 136.0px;animation:growUp 280ms ease-out 98ms both">
+    <polygon points="410.0,136.0 420.0,131.0 420.0,129.0 410.0,134.0"  fill="#161B22"/>
+    <polygon points="410.0,136.0 400.0,131.0 400.0,129.0 410.0,134.0" fill="#161B22"/>
+    <polygon points="410.0,134.0 420.0,129.0 410.0,124.0 400.0,129.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:430.0px 136.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 112ms both">
+    <polygon points="430.0,136.0 440.0,131.0 440.0,115.0 430.0,120.0"  fill="#003A4D"/>
+    <polygon points="430.0,136.0 420.0,131.0 420.0,115.0 430.0,120.0" fill="#002633"/>
+    <polygon points="430.0,120.0 440.0,115.0 430.0,110.0 420.0,115.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:450.0px 136.0px;animation:growUp 280ms ease-out 126ms both">
+    <polygon points="450.0,136.0 460.0,131.0 460.0,129.0 450.0,134.0"  fill="#161B22"/>
+    <polygon points="450.0,136.0 440.0,131.0 440.0,129.0 450.0,134.0" fill="#161B22"/>
+    <polygon points="450.0,134.0 460.0,129.0 450.0,124.0 440.0,129.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:470.0px 136.0px;animation:growUp 280ms ease-out 140ms both">
+    <polygon points="470.0,136.0 480.0,131.0 480.0,129.0 470.0,134.0"  fill="#161B22"/>
+    <polygon points="470.0,136.0 460.0,131.0 460.0,129.0 470.0,134.0" fill="#161B22"/>
+    <polygon points="470.0,134.0 480.0,129.0 470.0,124.0 460.0,129.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:490.0px 136.0px;animation:growUp 280ms ease-out 154ms both">
+    <polygon points="490.0,136.0 500.0,131.0 500.0,129.0 490.0,134.0"  fill="#161B22"/>
+    <polygon points="490.0,136.0 480.0,131.0 480.0,129.0 490.0,134.0" fill="#161B22"/>
+    <polygon points="490.0,134.0 500.0,129.0 490.0,124.0 480.0,129.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:510.0px 136.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 168ms both">
+    <polygon points="510.0,136.0 520.0,131.0 520.0,115.0 510.0,120.0"  fill="#003A4D"/>
+    <polygon points="510.0,136.0 500.0,131.0 500.0,115.0 510.0,120.0" fill="#002633"/>
+    <polygon points="510.0,120.0 520.0,115.0 510.0,110.0 500.0,115.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:400.0px 141.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 98ms both">
+    <polygon points="400.0,141.0 410.0,136.0 410.0,120.0 400.0,125.0"  fill="#003A4D"/>
+    <polygon points="400.0,141.0 390.0,136.0 390.0,120.0 400.0,125.0" fill="#002633"/>
+    <polygon points="400.0,125.0 410.0,120.0 400.0,115.0 390.0,120.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:420.0px 141.0px;animation:growUp 280ms ease-out 112ms both">
+    <polygon points="420.0,141.0 430.0,136.0 430.0,134.0 420.0,139.0"  fill="#161B22"/>
+    <polygon points="420.0,141.0 410.0,136.0 410.0,134.0 420.0,139.0" fill="#161B22"/>
+    <polygon points="420.0,139.0 430.0,134.0 420.0,129.0 410.0,134.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:440.0px 141.0px;animation:growUp 280ms ease-out 126ms both">
+    <polygon points="440.0,141.0 450.0,136.0 450.0,134.0 440.0,139.0"  fill="#161B22"/>
+    <polygon points="440.0,141.0 430.0,136.0 430.0,134.0 440.0,139.0" fill="#161B22"/>
+    <polygon points="440.0,139.0 450.0,134.0 440.0,129.0 430.0,134.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:460.0px 141.0px;animation:growUp 280ms ease-out 140ms both">
+    <polygon points="460.0,141.0 470.0,136.0 470.0,134.0 460.0,139.0"  fill="#161B22"/>
+    <polygon points="460.0,141.0 450.0,136.0 450.0,134.0 460.0,139.0" fill="#161B22"/>
+    <polygon points="460.0,139.0 470.0,134.0 460.0,129.0 450.0,134.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:480.0px 141.0px;animation:growUp 280ms ease-out 154ms both">
+    <polygon points="480.0,141.0 490.0,136.0 490.0,134.0 480.0,139.0"  fill="#161B22"/>
+    <polygon points="480.0,141.0 470.0,136.0 470.0,134.0 480.0,139.0" fill="#161B22"/>
+    <polygon points="480.0,139.0 490.0,134.0 480.0,129.0 470.0,134.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:500.0px 141.0px;animation:growUp 280ms ease-out 168ms both">
+    <polygon points="500.0,141.0 510.0,136.0 510.0,134.0 500.0,139.0"  fill="#161B22"/>
+    <polygon points="500.0,141.0 490.0,136.0 490.0,134.0 500.0,139.0" fill="#161B22"/>
+    <polygon points="500.0,139.0 510.0,134.0 500.0,129.0 490.0,134.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:520.0px 141.0px;animation:growUp 280ms ease-out 182ms both">
+    <polygon points="520.0,141.0 530.0,136.0 530.0,134.0 520.0,139.0"  fill="#161B22"/>
+    <polygon points="520.0,141.0 510.0,136.0 510.0,134.0 520.0,139.0" fill="#161B22"/>
+    <polygon points="520.0,139.0 530.0,134.0 520.0,129.0 510.0,134.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:410.0px 146.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 112ms both">
+    <polygon points="410.0,146.0 420.0,141.0 420.0,125.0 410.0,130.0"  fill="#003A4D"/>
+    <polygon points="410.0,146.0 400.0,141.0 400.0,125.0 410.0,130.0" fill="#002633"/>
+    <polygon points="410.0,130.0 420.0,125.0 410.0,120.0 400.0,125.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:430.0px 146.0px;animation:growUp 280ms ease-out 126ms both">
+    <polygon points="430.0,146.0 440.0,141.0 440.0,139.0 430.0,144.0"  fill="#161B22"/>
+    <polygon points="430.0,146.0 420.0,141.0 420.0,139.0 430.0,144.0" fill="#161B22"/>
+    <polygon points="430.0,144.0 440.0,139.0 430.0,134.0 420.0,139.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:450.0px 146.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 140ms both">
+    <polygon points="450.0,146.0 460.0,141.0 460.0,125.0 450.0,130.0"  fill="#003A4D"/>
+    <polygon points="450.0,146.0 440.0,141.0 440.0,125.0 450.0,130.0" fill="#002633"/>
+    <polygon points="450.0,130.0 460.0,125.0 450.0,120.0 440.0,125.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:470.0px 146.0px;animation:growUp 280ms ease-out 154ms both">
+    <polygon points="470.0,146.0 480.0,141.0 480.0,139.0 470.0,144.0"  fill="#161B22"/>
+    <polygon points="470.0,146.0 460.0,141.0 460.0,139.0 470.0,144.0" fill="#161B22"/>
+    <polygon points="470.0,144.0 480.0,139.0 470.0,134.0 460.0,139.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:490.0px 146.0px;animation:growUp 280ms ease-out 168ms both">
+    <polygon points="490.0,146.0 500.0,141.0 500.0,139.0 490.0,144.0"  fill="#161B22"/>
+    <polygon points="490.0,146.0 480.0,141.0 480.0,139.0 490.0,144.0" fill="#161B22"/>
+    <polygon points="490.0,144.0 500.0,139.0 490.0,134.0 480.0,139.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:510.0px 146.0px;animation:growUp 280ms ease-out 182ms both">
+    <polygon points="510.0,146.0 520.0,141.0 520.0,139.0 510.0,144.0"  fill="#161B22"/>
+    <polygon points="510.0,146.0 500.0,141.0 500.0,139.0 510.0,144.0" fill="#161B22"/>
+    <polygon points="510.0,144.0 520.0,139.0 510.0,134.0 500.0,139.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:530.0px 146.0px;animation:growUp 280ms ease-out 196ms both">
+    <polygon points="530.0,146.0 540.0,141.0 540.0,139.0 530.0,144.0"  fill="#161B22"/>
+    <polygon points="530.0,146.0 520.0,141.0 520.0,139.0 530.0,144.0" fill="#161B22"/>
+    <polygon points="530.0,144.0 540.0,139.0 530.0,134.0 520.0,139.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:420.0px 151.0px;animation:growUp 280ms ease-out 126ms both">
+    <polygon points="420.0,151.0 430.0,146.0 430.0,144.0 420.0,149.0"  fill="#161B22"/>
+    <polygon points="420.0,151.0 410.0,146.0 410.0,144.0 420.0,149.0" fill="#161B22"/>
+    <polygon points="420.0,149.0 430.0,144.0 420.0,139.0 410.0,144.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:440.0px 151.0px;animation:growUp 280ms ease-out 140ms both">
+    <polygon points="440.0,151.0 450.0,146.0 450.0,144.0 440.0,149.0"  fill="#161B22"/>
+    <polygon points="440.0,151.0 430.0,146.0 430.0,144.0 440.0,149.0" fill="#161B22"/>
+    <polygon points="440.0,149.0 450.0,144.0 440.0,139.0 430.0,144.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:460.0px 151.0px;animation:growUp 280ms ease-out 154ms both">
+    <polygon points="460.0,151.0 470.0,146.0 470.0,144.0 460.0,149.0"  fill="#161B22"/>
+    <polygon points="460.0,151.0 450.0,146.0 450.0,144.0 460.0,149.0" fill="#161B22"/>
+    <polygon points="460.0,149.0 470.0,144.0 460.0,139.0 450.0,144.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:480.0px 151.0px;animation:growUp 280ms ease-out 168ms both">
+    <polygon points="480.0,151.0 490.0,146.0 490.0,144.0 480.0,149.0"  fill="#161B22"/>
+    <polygon points="480.0,151.0 470.0,146.0 470.0,144.0 480.0,149.0" fill="#161B22"/>
+    <polygon points="480.0,149.0 490.0,144.0 480.0,139.0 470.0,144.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:500.0px 151.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 182ms both">
+    <polygon points="500.0,151.0 510.0,146.0 510.0,130.0 500.0,135.0"  fill="#003A4D"/>
+    <polygon points="500.0,151.0 490.0,146.0 490.0,130.0 500.0,135.0" fill="#002633"/>
+    <polygon points="500.0,135.0 510.0,130.0 500.0,125.0 490.0,130.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:520.0px 151.0px;animation:growUp 280ms ease-out 196ms both">
+    <polygon points="520.0,151.0 530.0,146.0 530.0,144.0 520.0,149.0"  fill="#161B22"/>
+    <polygon points="520.0,151.0 510.0,146.0 510.0,144.0 520.0,149.0" fill="#161B22"/>
+    <polygon points="520.0,149.0 530.0,144.0 520.0,139.0 510.0,144.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:540.0px 151.0px;animation:growUp 280ms ease-out 210ms both">
+    <polygon points="540.0,151.0 550.0,146.0 550.0,144.0 540.0,149.0"  fill="#161B22"/>
+    <polygon points="540.0,151.0 530.0,146.0 530.0,144.0 540.0,149.0" fill="#161B22"/>
+    <polygon points="540.0,149.0 550.0,144.0 540.0,139.0 530.0,144.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:430.0px 156.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 140ms both">
+    <polygon points="430.0,156.0 440.0,151.0 440.0,135.0 430.0,140.0"  fill="#003A4D"/>
+    <polygon points="430.0,156.0 420.0,151.0 420.0,135.0 430.0,140.0" fill="#002633"/>
+    <polygon points="430.0,140.0 440.0,135.0 430.0,130.0 420.0,135.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:450.0px 156.0px;animation:growUp 280ms ease-out 154ms both">
+    <polygon points="450.0,156.0 460.0,151.0 460.0,149.0 450.0,154.0"  fill="#161B22"/>
+    <polygon points="450.0,156.0 440.0,151.0 440.0,149.0 450.0,154.0" fill="#161B22"/>
+    <polygon points="450.0,154.0 460.0,149.0 450.0,144.0 440.0,149.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:470.0px 156.0px;animation:growUp 280ms ease-out 168ms both">
+    <polygon points="470.0,156.0 480.0,151.0 480.0,149.0 470.0,154.0"  fill="#161B22"/>
+    <polygon points="470.0,156.0 460.0,151.0 460.0,149.0 470.0,154.0" fill="#161B22"/>
+    <polygon points="470.0,154.0 480.0,149.0 470.0,144.0 460.0,149.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:490.0px 156.0px;animation:growUp 280ms ease-out 182ms both">
+    <polygon points="490.0,156.0 500.0,151.0 500.0,149.0 490.0,154.0"  fill="#161B22"/>
+    <polygon points="490.0,156.0 480.0,151.0 480.0,149.0 490.0,154.0" fill="#161B22"/>
+    <polygon points="490.0,154.0 500.0,149.0 490.0,144.0 480.0,149.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:510.0px 156.0px;animation:growUp 280ms ease-out 196ms both">
+    <polygon points="510.0,156.0 520.0,151.0 520.0,149.0 510.0,154.0"  fill="#161B22"/>
+    <polygon points="510.0,156.0 500.0,151.0 500.0,149.0 510.0,154.0" fill="#161B22"/>
+    <polygon points="510.0,154.0 520.0,149.0 510.0,144.0 500.0,149.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:530.0px 156.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 210ms both">
+    <polygon points="530.0,156.0 540.0,151.0 540.0,135.0 530.0,140.0"  fill="#003A4D"/>
+    <polygon points="530.0,156.0 520.0,151.0 520.0,135.0 530.0,140.0" fill="#002633"/>
+    <polygon points="530.0,140.0 540.0,135.0 530.0,130.0 520.0,135.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:550.0px 156.0px;animation:growUp 280ms ease-out 224ms both">
+    <polygon points="550.0,156.0 560.0,151.0 560.0,149.0 550.0,154.0"  fill="#161B22"/>
+    <polygon points="550.0,156.0 540.0,151.0 540.0,149.0 550.0,154.0" fill="#161B22"/>
+    <polygon points="550.0,154.0 560.0,149.0 550.0,144.0 540.0,149.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:440.0px 161.0px;animation:growUp 280ms ease-out 154ms both">
+    <polygon points="440.0,161.0 450.0,156.0 450.0,154.0 440.0,159.0"  fill="#161B22"/>
+    <polygon points="440.0,161.0 430.0,156.0 430.0,154.0 440.0,159.0" fill="#161B22"/>
+    <polygon points="440.0,159.0 450.0,154.0 440.0,149.0 430.0,154.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:460.0px 161.0px;animation:growUp 280ms ease-out 168ms both">
+    <polygon points="460.0,161.0 470.0,156.0 470.0,154.0 460.0,159.0"  fill="#161B22"/>
+    <polygon points="460.0,161.0 450.0,156.0 450.0,154.0 460.0,159.0" fill="#161B22"/>
+    <polygon points="460.0,159.0 470.0,154.0 460.0,149.0 450.0,154.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:480.0px 161.0px;animation:growUp 280ms ease-out 182ms both">
+    <polygon points="480.0,161.0 490.0,156.0 490.0,154.0 480.0,159.0"  fill="#161B22"/>
+    <polygon points="480.0,161.0 470.0,156.0 470.0,154.0 480.0,159.0" fill="#161B22"/>
+    <polygon points="480.0,159.0 490.0,154.0 480.0,149.0 470.0,154.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:500.0px 161.0px;animation:growUp 280ms ease-out 196ms both">
+    <polygon points="500.0,161.0 510.0,156.0 510.0,154.0 500.0,159.0"  fill="#161B22"/>
+    <polygon points="500.0,161.0 490.0,156.0 490.0,154.0 500.0,159.0" fill="#161B22"/>
+    <polygon points="500.0,159.0 510.0,154.0 500.0,149.0 490.0,154.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:520.0px 161.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 210ms both">
+    <polygon points="520.0,161.0 530.0,156.0 530.0,140.0 520.0,145.0"  fill="#003A4D"/>
+    <polygon points="520.0,161.0 510.0,156.0 510.0,140.0 520.0,145.0" fill="#002633"/>
+    <polygon points="520.0,145.0 530.0,140.0 520.0,135.0 510.0,140.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:540.0px 161.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 224ms both">
+    <polygon points="540.0,161.0 550.0,156.0 550.0,140.0 540.0,145.0"  fill="#003A4D"/>
+    <polygon points="540.0,161.0 530.0,156.0 530.0,140.0 540.0,145.0" fill="#002633"/>
+    <polygon points="540.0,145.0 550.0,140.0 540.0,135.0 530.0,140.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:560.0px 161.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 238ms both">
+    <polygon points="560.0,161.0 570.0,156.0 570.0,140.0 560.0,145.0"  fill="#003A4D"/>
+    <polygon points="560.0,161.0 550.0,156.0 550.0,140.0 560.0,145.0" fill="#002633"/>
+    <polygon points="560.0,145.0 570.0,140.0 560.0,135.0 550.0,140.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:450.0px 166.0px;animation:growUp 280ms ease-out 168ms both">
+    <polygon points="450.0,166.0 460.0,161.0 460.0,159.0 450.0,164.0"  fill="#161B22"/>
+    <polygon points="450.0,166.0 440.0,161.0 440.0,159.0 450.0,164.0" fill="#161B22"/>
+    <polygon points="450.0,164.0 460.0,159.0 450.0,154.0 440.0,159.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:470.0px 166.0px;animation:growUp 280ms ease-out 182ms both">
+    <polygon points="470.0,166.0 480.0,161.0 480.0,159.0 470.0,164.0"  fill="#161B22"/>
+    <polygon points="470.0,166.0 460.0,161.0 460.0,159.0 470.0,164.0" fill="#161B22"/>
+    <polygon points="470.0,164.0 480.0,159.0 470.0,154.0 460.0,159.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:490.0px 166.0px;animation:growUp 280ms ease-out 196ms both">
+    <polygon points="490.0,166.0 500.0,161.0 500.0,159.0 490.0,164.0"  fill="#161B22"/>
+    <polygon points="490.0,166.0 480.0,161.0 480.0,159.0 490.0,164.0" fill="#161B22"/>
+    <polygon points="490.0,164.0 500.0,159.0 490.0,154.0 480.0,159.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:510.0px 166.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 210ms both">
+    <polygon points="510.0,166.0 520.0,161.0 520.0,145.0 510.0,150.0"  fill="#003A4D"/>
+    <polygon points="510.0,166.0 500.0,161.0 500.0,145.0 510.0,150.0" fill="#002633"/>
+    <polygon points="510.0,150.0 520.0,145.0 510.0,140.0 500.0,145.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:530.0px 166.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 224ms both">
+    <polygon points="530.0,166.0 540.0,161.0 540.0,145.0 530.0,150.0"  fill="#003A4D"/>
+    <polygon points="530.0,166.0 520.0,161.0 520.0,145.0 530.0,150.0" fill="#002633"/>
+    <polygon points="530.0,150.0 540.0,145.0 530.0,140.0 520.0,145.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:550.0px 166.0px;animation:growUp 280ms ease-out 238ms both">
+    <polygon points="550.0,166.0 560.0,161.0 560.0,159.0 550.0,164.0"  fill="#161B22"/>
+    <polygon points="550.0,166.0 540.0,161.0 540.0,159.0 550.0,164.0" fill="#161B22"/>
+    <polygon points="550.0,164.0 560.0,159.0 550.0,154.0 540.0,159.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:570.0px 166.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 252ms both">
+    <polygon points="570.0,166.0 580.0,161.0 580.0,145.0 570.0,150.0"  fill="#003A4D"/>
+    <polygon points="570.0,166.0 560.0,161.0 560.0,145.0 570.0,150.0" fill="#002633"/>
+    <polygon points="570.0,150.0 580.0,145.0 570.0,140.0 560.0,145.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:460.0px 171.0px;animation:growUp 280ms ease-out 182ms both">
+    <polygon points="460.0,171.0 470.0,166.0 470.0,164.0 460.0,169.0"  fill="#161B22"/>
+    <polygon points="460.0,171.0 450.0,166.0 450.0,164.0 460.0,169.0" fill="#161B22"/>
+    <polygon points="460.0,169.0 470.0,164.0 460.0,159.0 450.0,164.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:480.0px 171.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 196ms both">
+    <polygon points="480.0,171.0 490.0,166.0 490.0,150.0 480.0,155.0"  fill="#003A4D"/>
+    <polygon points="480.0,171.0 470.0,166.0 470.0,150.0 480.0,155.0" fill="#002633"/>
+    <polygon points="480.0,155.0 490.0,150.0 480.0,145.0 470.0,150.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:500.0px 171.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 210ms both">
+    <polygon points="500.0,171.0 510.0,166.0 510.0,150.0 500.0,155.0"  fill="#003A4D"/>
+    <polygon points="500.0,171.0 490.0,166.0 490.0,150.0 500.0,155.0" fill="#002633"/>
+    <polygon points="500.0,155.0 510.0,150.0 500.0,145.0 490.0,150.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:520.0px 171.0px;animation:growUp 280ms ease-out 224ms both">
+    <polygon points="520.0,171.0 530.0,166.0 530.0,164.0 520.0,169.0"  fill="#161B22"/>
+    <polygon points="520.0,171.0 510.0,166.0 510.0,164.0 520.0,169.0" fill="#161B22"/>
+    <polygon points="520.0,169.0 530.0,164.0 520.0,159.0 510.0,164.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:540.0px 171.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 238ms both">
+    <polygon points="540.0,171.0 550.0,166.0 550.0,150.0 540.0,155.0"  fill="#003A4D"/>
+    <polygon points="540.0,171.0 530.0,166.0 530.0,150.0 540.0,155.0" fill="#002633"/>
+    <polygon points="540.0,155.0 550.0,150.0 540.0,145.0 530.0,150.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:560.0px 171.0px;animation:growUp 280ms ease-out 252ms both">
+    <polygon points="560.0,171.0 570.0,166.0 570.0,164.0 560.0,169.0"  fill="#161B22"/>
+    <polygon points="560.0,171.0 550.0,166.0 550.0,164.0 560.0,169.0" fill="#161B22"/>
+    <polygon points="560.0,169.0 570.0,164.0 560.0,159.0 550.0,164.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:580.0px 171.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 266ms both">
+    <polygon points="580.0,171.0 590.0,166.0 590.0,150.0 580.0,155.0"  fill="#003A4D"/>
+    <polygon points="580.0,171.0 570.0,166.0 570.0,150.0 580.0,155.0" fill="#002633"/>
+    <polygon points="580.0,155.0 590.0,150.0 580.0,145.0 570.0,150.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:470.0px 176.0px;animation:growUp 280ms ease-out 196ms both">
+    <polygon points="470.0,176.0 480.0,171.0 480.0,169.0 470.0,174.0"  fill="#161B22"/>
+    <polygon points="470.0,176.0 460.0,171.0 460.0,169.0 470.0,174.0" fill="#161B22"/>
+    <polygon points="470.0,174.0 480.0,169.0 470.0,164.0 460.0,169.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:490.0px 176.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 210ms both">
+    <polygon points="490.0,176.0 500.0,171.0 500.0,155.0 490.0,160.0"  fill="#003A4D"/>
+    <polygon points="490.0,176.0 480.0,171.0 480.0,155.0 490.0,160.0" fill="#002633"/>
+    <polygon points="490.0,160.0 500.0,155.0 490.0,150.0 480.0,155.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:510.0px 176.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 224ms both">
+    <polygon points="510.0,176.0 520.0,171.0 520.0,155.0 510.0,160.0"  fill="#003A4D"/>
+    <polygon points="510.0,176.0 500.0,171.0 500.0,155.0 510.0,160.0" fill="#002633"/>
+    <polygon points="510.0,160.0 520.0,155.0 510.0,150.0 500.0,155.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:530.0px 176.0px;animation:growUp 280ms ease-out 238ms both">
+    <polygon points="530.0,176.0 540.0,171.0 540.0,169.0 530.0,174.0"  fill="#161B22"/>
+    <polygon points="530.0,176.0 520.0,171.0 520.0,169.0 530.0,174.0" fill="#161B22"/>
+    <polygon points="530.0,174.0 540.0,169.0 530.0,164.0 520.0,169.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:550.0px 176.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 252ms both">
+    <polygon points="550.0,176.0 560.0,171.0 560.0,155.0 550.0,160.0"  fill="#003A4D"/>
+    <polygon points="550.0,176.0 540.0,171.0 540.0,155.0 550.0,160.0" fill="#002633"/>
+    <polygon points="550.0,160.0 560.0,155.0 550.0,150.0 540.0,155.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:570.0px 176.0px;animation:growUp 280ms ease-out 266ms both">
+    <polygon points="570.0,176.0 580.0,171.0 580.0,169.0 570.0,174.0"  fill="#161B22"/>
+    <polygon points="570.0,176.0 560.0,171.0 560.0,169.0 570.0,174.0" fill="#161B22"/>
+    <polygon points="570.0,174.0 580.0,169.0 570.0,164.0 560.0,169.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:590.0px 176.0px;animation:growUp 280ms ease-out 280ms both">
+    <polygon points="590.0,176.0 600.0,171.0 600.0,169.0 590.0,174.0"  fill="#161B22"/>
+    <polygon points="590.0,176.0 580.0,171.0 580.0,169.0 590.0,174.0" fill="#161B22"/>
+    <polygon points="590.0,174.0 600.0,169.0 590.0,164.0 580.0,169.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:480.0px 181.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 210ms both">
+    <polygon points="480.0,181.0 490.0,176.0 490.0,160.0 480.0,165.0"  fill="#003A4D"/>
+    <polygon points="480.0,181.0 470.0,176.0 470.0,160.0 480.0,165.0" fill="#002633"/>
+    <polygon points="480.0,165.0 490.0,160.0 480.0,155.0 470.0,160.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:500.0px 181.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 224ms both">
+    <polygon points="500.0,181.0 510.0,176.0 510.0,160.0 500.0,165.0"  fill="#003A4D"/>
+    <polygon points="500.0,181.0 490.0,176.0 490.0,160.0 500.0,165.0" fill="#002633"/>
+    <polygon points="500.0,165.0 510.0,160.0 500.0,155.0 490.0,160.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:520.0px 181.0px;animation:growUp 280ms ease-out 238ms both">
+    <polygon points="520.0,181.0 530.0,176.0 530.0,174.0 520.0,179.0"  fill="#161B22"/>
+    <polygon points="520.0,181.0 510.0,176.0 510.0,174.0 520.0,179.0" fill="#161B22"/>
+    <polygon points="520.0,179.0 530.0,174.0 520.0,169.0 510.0,174.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:540.0px 181.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 252ms both">
+    <polygon points="540.0,181.0 550.0,176.0 550.0,160.0 540.0,165.0"  fill="#003A4D"/>
+    <polygon points="540.0,181.0 530.0,176.0 530.0,160.0 540.0,165.0" fill="#002633"/>
+    <polygon points="540.0,165.0 550.0,160.0 540.0,155.0 530.0,160.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:560.0px 181.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 266ms both">
+    <polygon points="560.0,181.0 570.0,176.0 570.0,160.0 560.0,165.0"  fill="#003A4D"/>
+    <polygon points="560.0,181.0 550.0,176.0 550.0,160.0 560.0,165.0" fill="#002633"/>
+    <polygon points="560.0,165.0 570.0,160.0 560.0,155.0 550.0,160.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:580.0px 181.0px;animation:growUp 280ms ease-out 280ms both">
+    <polygon points="580.0,181.0 590.0,176.0 590.0,174.0 580.0,179.0"  fill="#161B22"/>
+    <polygon points="580.0,181.0 570.0,176.0 570.0,174.0 580.0,179.0" fill="#161B22"/>
+    <polygon points="580.0,179.0 590.0,174.0 580.0,169.0 570.0,174.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:600.0px 181.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 294ms both">
+    <polygon points="600.0,181.0 610.0,176.0 610.0,160.0 600.0,165.0"  fill="#003A4D"/>
+    <polygon points="600.0,181.0 590.0,176.0 590.0,160.0 600.0,165.0" fill="#002633"/>
+    <polygon points="600.0,165.0 610.0,160.0 600.0,155.0 590.0,160.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:490.0px 186.0px;animation:growUp 280ms ease-out 224ms both">
+    <polygon points="490.0,186.0 500.0,181.0 500.0,179.0 490.0,184.0"  fill="#161B22"/>
+    <polygon points="490.0,186.0 480.0,181.0 480.0,179.0 490.0,184.0" fill="#161B22"/>
+    <polygon points="490.0,184.0 500.0,179.0 490.0,174.0 480.0,179.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:510.0px 186.0px;animation:growUp 280ms ease-out 238ms both">
+    <polygon points="510.0,186.0 520.0,181.0 520.0,179.0 510.0,184.0"  fill="#161B22"/>
+    <polygon points="510.0,186.0 500.0,181.0 500.0,179.0 510.0,184.0" fill="#161B22"/>
+    <polygon points="510.0,184.0 520.0,179.0 510.0,174.0 500.0,179.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:530.0px 186.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 252ms both">
+    <polygon points="530.0,186.0 540.0,181.0 540.0,165.0 530.0,170.0"  fill="#003A4D"/>
+    <polygon points="530.0,186.0 520.0,181.0 520.0,165.0 530.0,170.0" fill="#002633"/>
+    <polygon points="530.0,170.0 540.0,165.0 530.0,160.0 520.0,165.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:550.0px 186.0px;animation:growUp 280ms ease-out 266ms both">
+    <polygon points="550.0,186.0 560.0,181.0 560.0,179.0 550.0,184.0"  fill="#161B22"/>
+    <polygon points="550.0,186.0 540.0,181.0 540.0,179.0 550.0,184.0" fill="#161B22"/>
+    <polygon points="550.0,184.0 560.0,179.0 550.0,174.0 540.0,179.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:570.0px 186.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 280ms both">
+    <polygon points="570.0,186.0 580.0,181.0 580.0,165.0 570.0,170.0"  fill="#003A4D"/>
+    <polygon points="570.0,186.0 560.0,181.0 560.0,165.0 570.0,170.0" fill="#002633"/>
+    <polygon points="570.0,170.0 580.0,165.0 570.0,160.0 560.0,165.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:590.0px 186.0px;animation:growUp 280ms ease-out 294ms both">
+    <polygon points="590.0,186.0 600.0,181.0 600.0,179.0 590.0,184.0"  fill="#161B22"/>
+    <polygon points="590.0,186.0 580.0,181.0 580.0,179.0 590.0,184.0" fill="#161B22"/>
+    <polygon points="590.0,184.0 600.0,179.0 590.0,174.0 580.0,179.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:610.0px 186.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 308ms both">
+    <polygon points="610.0,186.0 620.0,181.0 620.0,165.0 610.0,170.0"  fill="#003A4D"/>
+    <polygon points="610.0,186.0 600.0,181.0 600.0,165.0 610.0,170.0" fill="#002633"/>
+    <polygon points="610.0,170.0 620.0,165.0 610.0,160.0 600.0,165.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:500.0px 191.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 238ms both">
+    <polygon points="500.0,191.0 510.0,186.0 510.0,170.0 500.0,175.0"  fill="#003A4D"/>
+    <polygon points="500.0,191.0 490.0,186.0 490.0,170.0 500.0,175.0" fill="#002633"/>
+    <polygon points="500.0,175.0 510.0,170.0 500.0,165.0 490.0,170.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:520.0px 191.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 252ms both">
+    <polygon points="520.0,191.0 530.0,186.0 530.0,170.0 520.0,175.0"  fill="#003A4D"/>
+    <polygon points="520.0,191.0 510.0,186.0 510.0,170.0 520.0,175.0" fill="#002633"/>
+    <polygon points="520.0,175.0 530.0,170.0 520.0,165.0 510.0,170.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:540.0px 191.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 266ms both">
+    <polygon points="540.0,191.0 550.0,186.0 550.0,170.0 540.0,175.0"  fill="#003A4D"/>
+    <polygon points="540.0,191.0 530.0,186.0 530.0,170.0 540.0,175.0" fill="#002633"/>
+    <polygon points="540.0,175.0 550.0,170.0 540.0,165.0 530.0,170.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:560.0px 191.0px;animation:growUp 280ms ease-out 280ms both">
+    <polygon points="560.0,191.0 570.0,186.0 570.0,184.0 560.0,189.0"  fill="#161B22"/>
+    <polygon points="560.0,191.0 550.0,186.0 550.0,184.0 560.0,189.0" fill="#161B22"/>
+    <polygon points="560.0,189.0 570.0,184.0 560.0,179.0 550.0,184.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:580.0px 191.0px;animation:growUp 280ms ease-out 294ms both">
+    <polygon points="580.0,191.0 590.0,186.0 590.0,184.0 580.0,189.0"  fill="#161B22"/>
+    <polygon points="580.0,191.0 570.0,186.0 570.0,184.0 580.0,189.0" fill="#161B22"/>
+    <polygon points="580.0,189.0 590.0,184.0 580.0,179.0 570.0,184.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:600.0px 191.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 308ms both">
+    <polygon points="600.0,191.0 610.0,186.0 610.0,170.0 600.0,175.0"  fill="#003A4D"/>
+    <polygon points="600.0,191.0 590.0,186.0 590.0,170.0 600.0,175.0" fill="#002633"/>
+    <polygon points="600.0,175.0 610.0,170.0 600.0,165.0 590.0,170.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:620.0px 191.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 322ms both">
+    <polygon points="620.0,191.0 630.0,186.0 630.0,170.0 620.0,175.0"  fill="#003A4D"/>
+    <polygon points="620.0,191.0 610.0,186.0 610.0,170.0 620.0,175.0" fill="#002633"/>
+    <polygon points="620.0,175.0 630.0,170.0 620.0,165.0 610.0,170.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:510.0px 196.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 252ms both">
+    <polygon points="510.0,196.0 520.0,191.0 520.0,175.0 510.0,180.0"  fill="#003A4D"/>
+    <polygon points="510.0,196.0 500.0,191.0 500.0,175.0 510.0,180.0" fill="#002633"/>
+    <polygon points="510.0,180.0 520.0,175.0 510.0,170.0 500.0,175.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:530.0px 196.0px;animation:growUp 280ms ease-out 266ms both">
+    <polygon points="530.0,196.0 540.0,191.0 540.0,189.0 530.0,194.0"  fill="#161B22"/>
+    <polygon points="530.0,196.0 520.0,191.0 520.0,189.0 530.0,194.0" fill="#161B22"/>
+    <polygon points="530.0,194.0 540.0,189.0 530.0,184.0 520.0,189.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:550.0px 196.0px;animation:growUp 280ms ease-out 280ms both">
+    <polygon points="550.0,196.0 560.0,191.0 560.0,189.0 550.0,194.0"  fill="#161B22"/>
+    <polygon points="550.0,196.0 540.0,191.0 540.0,189.0 550.0,194.0" fill="#161B22"/>
+    <polygon points="550.0,194.0 560.0,189.0 550.0,184.0 540.0,189.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:570.0px 196.0px;animation:growUp 280ms ease-out 294ms both">
+    <polygon points="570.0,196.0 580.0,191.0 580.0,189.0 570.0,194.0"  fill="#161B22"/>
+    <polygon points="570.0,196.0 560.0,191.0 560.0,189.0 570.0,194.0" fill="#161B22"/>
+    <polygon points="570.0,194.0 580.0,189.0 570.0,184.0 560.0,189.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:590.0px 196.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 308ms both">
+    <polygon points="590.0,196.0 600.0,191.0 600.0,175.0 590.0,180.0"  fill="#003A4D"/>
+    <polygon points="590.0,196.0 580.0,191.0 580.0,175.0 590.0,180.0" fill="#002633"/>
+    <polygon points="590.0,180.0 600.0,175.0 590.0,170.0 580.0,175.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:610.0px 196.0px;animation:growUp 280ms ease-out 322ms both">
+    <polygon points="610.0,196.0 620.0,191.0 620.0,189.0 610.0,194.0"  fill="#161B22"/>
+    <polygon points="610.0,196.0 600.0,191.0 600.0,189.0 610.0,194.0" fill="#161B22"/>
+    <polygon points="610.0,194.0 620.0,189.0 610.0,184.0 600.0,189.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:630.0px 196.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 336ms both">
+    <polygon points="630.0,196.0 640.0,191.0 640.0,175.0 630.0,180.0"  fill="#003A4D"/>
+    <polygon points="630.0,196.0 620.0,191.0 620.0,175.0 630.0,180.0" fill="#002633"/>
+    <polygon points="630.0,180.0 640.0,175.0 630.0,170.0 620.0,175.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:520.0px 201.0px;animation:growUp 280ms ease-out 266ms both">
+    <polygon points="520.0,201.0 530.0,196.0 530.0,194.0 520.0,199.0"  fill="#161B22"/>
+    <polygon points="520.0,201.0 510.0,196.0 510.0,194.0 520.0,199.0" fill="#161B22"/>
+    <polygon points="520.0,199.0 530.0,194.0 520.0,189.0 510.0,194.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:540.0px 201.0px;animation:growUp 280ms ease-out 280ms both">
+    <polygon points="540.0,201.0 550.0,196.0 550.0,194.0 540.0,199.0"  fill="#161B22"/>
+    <polygon points="540.0,201.0 530.0,196.0 530.0,194.0 540.0,199.0" fill="#161B22"/>
+    <polygon points="540.0,199.0 550.0,194.0 540.0,189.0 530.0,194.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:560.0px 201.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 294ms both">
+    <polygon points="560.0,201.0 570.0,196.0 570.0,180.0 560.0,185.0"  fill="#003A4D"/>
+    <polygon points="560.0,201.0 550.0,196.0 550.0,180.0 560.0,185.0" fill="#002633"/>
+    <polygon points="560.0,185.0 570.0,180.0 560.0,175.0 550.0,180.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:580.0px 201.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 308ms both">
+    <polygon points="580.0,201.0 590.0,196.0 590.0,180.0 580.0,185.0"  fill="#003A4D"/>
+    <polygon points="580.0,201.0 570.0,196.0 570.0,180.0 580.0,185.0" fill="#002633"/>
+    <polygon points="580.0,185.0 590.0,180.0 580.0,175.0 570.0,180.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:600.0px 201.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 322ms both">
+    <polygon points="600.0,201.0 610.0,196.0 610.0,180.0 600.0,185.0"  fill="#003A4D"/>
+    <polygon points="600.0,201.0 590.0,196.0 590.0,180.0 600.0,185.0" fill="#002633"/>
+    <polygon points="600.0,185.0 610.0,180.0 600.0,175.0 590.0,180.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:620.0px 201.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 336ms both">
+    <polygon points="620.0,201.0 630.0,196.0 630.0,180.0 620.0,185.0"  fill="#003A4D"/>
+    <polygon points="620.0,201.0 610.0,196.0 610.0,180.0 620.0,185.0" fill="#002633"/>
+    <polygon points="620.0,185.0 630.0,180.0 620.0,175.0 610.0,180.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:640.0px 201.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 350ms both">
+    <polygon points="640.0,201.0 650.0,196.0 650.0,180.0 640.0,185.0"  fill="#003A4D"/>
+    <polygon points="640.0,201.0 630.0,196.0 630.0,180.0 640.0,185.0" fill="#002633"/>
+    <polygon points="640.0,185.0 650.0,180.0 640.0,175.0 630.0,180.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:530.0px 206.0px;animation:growUp 280ms ease-out 280ms both">
+    <polygon points="530.0,206.0 540.0,201.0 540.0,199.0 530.0,204.0"  fill="#161B22"/>
+    <polygon points="530.0,206.0 520.0,201.0 520.0,199.0 530.0,204.0" fill="#161B22"/>
+    <polygon points="530.0,204.0 540.0,199.0 530.0,194.0 520.0,199.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:550.0px 206.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 294ms both">
+    <polygon points="550.0,206.0 560.0,201.0 560.0,185.0 550.0,190.0"  fill="#003A4D"/>
+    <polygon points="550.0,206.0 540.0,201.0 540.0,185.0 550.0,190.0" fill="#002633"/>
+    <polygon points="550.0,190.0 560.0,185.0 550.0,180.0 540.0,185.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:570.0px 206.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 308ms both">
+    <polygon points="570.0,206.0 580.0,201.0 580.0,185.0 570.0,190.0"  fill="#003A4D"/>
+    <polygon points="570.0,206.0 560.0,201.0 560.0,185.0 570.0,190.0" fill="#002633"/>
+    <polygon points="570.0,190.0 580.0,185.0 570.0,180.0 560.0,185.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:590.0px 206.0px;animation:growUp 280ms ease-out 322ms both">
+    <polygon points="590.0,206.0 600.0,201.0 600.0,199.0 590.0,204.0"  fill="#161B22"/>
+    <polygon points="590.0,206.0 580.0,201.0 580.0,199.0 590.0,204.0" fill="#161B22"/>
+    <polygon points="590.0,204.0 600.0,199.0 590.0,194.0 580.0,199.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:610.0px 206.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 336ms both">
+    <polygon points="610.0,206.0 620.0,201.0 620.0,185.0 610.0,190.0"  fill="#003A4D"/>
+    <polygon points="610.0,206.0 600.0,201.0 600.0,185.0 610.0,190.0" fill="#002633"/>
+    <polygon points="610.0,190.0 620.0,185.0 610.0,180.0 600.0,185.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:630.0px 206.0px;animation:growUp 280ms ease-out 350ms both">
+    <polygon points="630.0,206.0 640.0,201.0 640.0,199.0 630.0,204.0"  fill="#161B22"/>
+    <polygon points="630.0,206.0 620.0,201.0 620.0,199.0 630.0,204.0" fill="#161B22"/>
+    <polygon points="630.0,204.0 640.0,199.0 630.0,194.0 620.0,199.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:650.0px 206.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 364ms both">
+    <polygon points="650.0,206.0 660.0,201.0 660.0,185.0 650.0,190.0"  fill="#003A4D"/>
+    <polygon points="650.0,206.0 640.0,201.0 640.0,185.0 650.0,190.0" fill="#002633"/>
+    <polygon points="650.0,190.0 660.0,185.0 650.0,180.0 640.0,185.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:540.0px 211.0px;animation:growUp 280ms ease-out 294ms both">
+    <polygon points="540.0,211.0 550.0,206.0 550.0,204.0 540.0,209.0"  fill="#161B22"/>
+    <polygon points="540.0,211.0 530.0,206.0 530.0,204.0 540.0,209.0" fill="#161B22"/>
+    <polygon points="540.0,209.0 550.0,204.0 540.0,199.0 530.0,204.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:560.0px 211.0px;animation:growUp 280ms ease-out 308ms both">
+    <polygon points="560.0,211.0 570.0,206.0 570.0,204.0 560.0,209.0"  fill="#161B22"/>
+    <polygon points="560.0,211.0 550.0,206.0 550.0,204.0 560.0,209.0" fill="#161B22"/>
+    <polygon points="560.0,209.0 570.0,204.0 560.0,199.0 550.0,204.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:580.0px 211.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 322ms both">
+    <polygon points="580.0,211.0 590.0,206.0 590.0,190.0 580.0,195.0"  fill="#003A4D"/>
+    <polygon points="580.0,211.0 570.0,206.0 570.0,190.0 580.0,195.0" fill="#002633"/>
+    <polygon points="580.0,195.0 590.0,190.0 580.0,185.0 570.0,190.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:600.0px 211.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 336ms both">
+    <polygon points="600.0,211.0 610.0,206.0 610.0,174.0 600.0,179.0"  fill="#006B82"/>
+    <polygon points="600.0,211.0 590.0,206.0 590.0,174.0 600.0,179.0" fill="#005466"/>
+    <polygon points="600.0,179.0 610.0,174.0 600.0,169.0 590.0,174.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:620.0px 211.0px;animation:growUp 280ms ease-out 350ms both">
+    <polygon points="620.0,211.0 630.0,206.0 630.0,204.0 620.0,209.0"  fill="#161B22"/>
+    <polygon points="620.0,211.0 610.0,206.0 610.0,204.0 620.0,209.0" fill="#161B22"/>
+    <polygon points="620.0,209.0 630.0,204.0 620.0,199.0 610.0,204.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:640.0px 211.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 364ms both">
+    <polygon points="640.0,211.0 650.0,206.0 650.0,190.0 640.0,195.0"  fill="#003A4D"/>
+    <polygon points="640.0,211.0 630.0,206.0 630.0,190.0 640.0,195.0" fill="#002633"/>
+    <polygon points="640.0,195.0 650.0,190.0 640.0,185.0 630.0,190.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:660.0px 211.0px;animation:growUp 280ms ease-out 378ms both">
+    <polygon points="660.0,211.0 670.0,206.0 670.0,204.0 660.0,209.0"  fill="#161B22"/>
+    <polygon points="660.0,211.0 650.0,206.0 650.0,204.0 660.0,209.0" fill="#161B22"/>
+    <polygon points="660.0,209.0 670.0,204.0 660.0,199.0 650.0,204.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:550.0px 216.0px;animation:growUp 280ms ease-out 308ms both">
+    <polygon points="550.0,216.0 560.0,211.0 560.0,209.0 550.0,214.0"  fill="#161B22"/>
+    <polygon points="550.0,216.0 540.0,211.0 540.0,209.0 550.0,214.0" fill="#161B22"/>
+    <polygon points="550.0,214.0 560.0,209.0 550.0,204.0 540.0,209.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:570.0px 216.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 322ms both">
+    <polygon points="570.0,216.0 580.0,211.0 580.0,195.0 570.0,200.0"  fill="#003A4D"/>
+    <polygon points="570.0,216.0 560.0,211.0 560.0,195.0 570.0,200.0" fill="#002633"/>
+    <polygon points="570.0,200.0 580.0,195.0 570.0,190.0 560.0,195.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:590.0px 216.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 336ms both">
+    <polygon points="590.0,216.0 600.0,211.0 600.0,179.0 590.0,184.0"  fill="#006B82"/>
+    <polygon points="590.0,216.0 580.0,211.0 580.0,179.0 590.0,184.0" fill="#005466"/>
+    <polygon points="590.0,184.0 600.0,179.0 590.0,174.0 580.0,179.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:610.0px 216.0px;animation:growUp 280ms ease-out 350ms both">
+    <polygon points="610.0,216.0 620.0,211.0 620.0,209.0 610.0,214.0"  fill="#161B22"/>
+    <polygon points="610.0,216.0 600.0,211.0 600.0,209.0 610.0,214.0" fill="#161B22"/>
+    <polygon points="610.0,214.0 620.0,209.0 610.0,204.0 600.0,209.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:630.0px 216.0px;animation:growUp 280ms ease-out 364ms both">
+    <polygon points="630.0,216.0 640.0,211.0 640.0,209.0 630.0,214.0"  fill="#161B22"/>
+    <polygon points="630.0,216.0 620.0,211.0 620.0,209.0 630.0,214.0" fill="#161B22"/>
+    <polygon points="630.0,214.0 640.0,209.0 630.0,204.0 620.0,209.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:650.0px 216.0px;animation:growUp 280ms ease-out 378ms both">
+    <polygon points="650.0,216.0 660.0,211.0 660.0,209.0 650.0,214.0"  fill="#161B22"/>
+    <polygon points="650.0,216.0 640.0,211.0 640.0,209.0 650.0,214.0" fill="#161B22"/>
+    <polygon points="650.0,214.0 660.0,209.0 650.0,204.0 640.0,209.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:670.0px 216.0px;animation:growUp 280ms ease-out 392ms both">
+    <polygon points="670.0,216.0 680.0,211.0 680.0,209.0 670.0,214.0"  fill="#161B22"/>
+    <polygon points="670.0,216.0 660.0,211.0 660.0,209.0 670.0,214.0" fill="#161B22"/>
+    <polygon points="670.0,214.0 680.0,209.0 670.0,204.0 660.0,209.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:560.0px 221.0px;animation:growUp 280ms ease-out 322ms both">
+    <polygon points="560.0,221.0 570.0,216.0 570.0,214.0 560.0,219.0"  fill="#161B22"/>
+    <polygon points="560.0,221.0 550.0,216.0 550.0,214.0 560.0,219.0" fill="#161B22"/>
+    <polygon points="560.0,219.0 570.0,214.0 560.0,209.0 550.0,214.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:580.0px 221.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 336ms both">
+    <polygon points="580.0,221.0 590.0,216.0 590.0,200.0 580.0,205.0"  fill="#003A4D"/>
+    <polygon points="580.0,221.0 570.0,216.0 570.0,200.0 580.0,205.0" fill="#002633"/>
+    <polygon points="580.0,205.0 590.0,200.0 580.0,195.0 570.0,200.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:600.0px 221.0px;animation:growUp 280ms ease-out 350ms both">
+    <polygon points="600.0,221.0 610.0,216.0 610.0,214.0 600.0,219.0"  fill="#161B22"/>
+    <polygon points="600.0,221.0 590.0,216.0 590.0,214.0 600.0,219.0" fill="#161B22"/>
+    <polygon points="600.0,219.0 610.0,214.0 600.0,209.0 590.0,214.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:620.0px 221.0px;animation:growUp 280ms ease-out 364ms both">
+    <polygon points="620.0,221.0 630.0,216.0 630.0,214.0 620.0,219.0"  fill="#161B22"/>
+    <polygon points="620.0,221.0 610.0,216.0 610.0,214.0 620.0,219.0" fill="#161B22"/>
+    <polygon points="620.0,219.0 630.0,214.0 620.0,209.0 610.0,214.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:640.0px 221.0px;animation:growUp 280ms ease-out 378ms both">
+    <polygon points="640.0,221.0 650.0,216.0 650.0,214.0 640.0,219.0"  fill="#161B22"/>
+    <polygon points="640.0,221.0 630.0,216.0 630.0,214.0 640.0,219.0" fill="#161B22"/>
+    <polygon points="640.0,219.0 650.0,214.0 640.0,209.0 630.0,214.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:660.0px 221.0px;animation:growUp 280ms ease-out 392ms both">
+    <polygon points="660.0,221.0 670.0,216.0 670.0,214.0 660.0,219.0"  fill="#161B22"/>
+    <polygon points="660.0,221.0 650.0,216.0 650.0,214.0 660.0,219.0" fill="#161B22"/>
+    <polygon points="660.0,219.0 670.0,214.0 660.0,209.0 650.0,214.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:680.0px 221.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 406ms both">
+    <polygon points="680.0,221.0 690.0,216.0 690.0,200.0 680.0,205.0"  fill="#003A4D"/>
+    <polygon points="680.0,221.0 670.0,216.0 670.0,200.0 680.0,205.0" fill="#002633"/>
+    <polygon points="680.0,205.0 690.0,200.0 680.0,195.0 670.0,200.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:570.0px 226.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 336ms both">
+    <polygon points="570.0,226.0 580.0,221.0 580.0,205.0 570.0,210.0"  fill="#003A4D"/>
+    <polygon points="570.0,226.0 560.0,221.0 560.0,205.0 570.0,210.0" fill="#002633"/>
+    <polygon points="570.0,210.0 580.0,205.0 570.0,200.0 560.0,205.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:590.0px 226.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 350ms both">
+    <polygon points="590.0,226.0 600.0,221.0 600.0,205.0 590.0,210.0"  fill="#003A4D"/>
+    <polygon points="590.0,226.0 580.0,221.0 580.0,205.0 590.0,210.0" fill="#002633"/>
+    <polygon points="590.0,210.0 600.0,205.0 590.0,200.0 580.0,205.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:610.0px 226.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 364ms both">
+    <polygon points="610.0,226.0 620.0,221.0 620.0,205.0 610.0,210.0"  fill="#003A4D"/>
+    <polygon points="610.0,226.0 600.0,221.0 600.0,205.0 610.0,210.0" fill="#002633"/>
+    <polygon points="610.0,210.0 620.0,205.0 610.0,200.0 600.0,205.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:630.0px 226.0px;animation:growUp 280ms ease-out 378ms both">
+    <polygon points="630.0,226.0 640.0,221.0 640.0,219.0 630.0,224.0"  fill="#161B22"/>
+    <polygon points="630.0,226.0 620.0,221.0 620.0,219.0 630.0,224.0" fill="#161B22"/>
+    <polygon points="630.0,224.0 640.0,219.0 630.0,214.0 620.0,219.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:650.0px 226.0px;animation:growUp 280ms ease-out 392ms both">
+    <polygon points="650.0,226.0 660.0,221.0 660.0,219.0 650.0,224.0"  fill="#161B22"/>
+    <polygon points="650.0,226.0 640.0,221.0 640.0,219.0 650.0,224.0" fill="#161B22"/>
+    <polygon points="650.0,224.0 660.0,219.0 650.0,214.0 640.0,219.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:670.0px 226.0px;animation:growUp 280ms ease-out 406ms both">
+    <polygon points="670.0,226.0 680.0,221.0 680.0,219.0 670.0,224.0"  fill="#161B22"/>
+    <polygon points="670.0,226.0 660.0,221.0 660.0,219.0 670.0,224.0" fill="#161B22"/>
+    <polygon points="670.0,224.0 680.0,219.0 670.0,214.0 660.0,219.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:690.0px 226.0px;animation:growUp 280ms ease-out 420ms both">
+    <polygon points="690.0,226.0 700.0,221.0 700.0,219.0 690.0,224.0"  fill="#161B22"/>
+    <polygon points="690.0,226.0 680.0,221.0 680.0,219.0 690.0,224.0" fill="#161B22"/>
+    <polygon points="690.0,224.0 700.0,219.0 690.0,214.0 680.0,219.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:580.0px 231.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 350ms both">
+    <polygon points="580.0,231.0 590.0,226.0 590.0,210.0 580.0,215.0"  fill="#003A4D"/>
+    <polygon points="580.0,231.0 570.0,226.0 570.0,210.0 580.0,215.0" fill="#002633"/>
+    <polygon points="580.0,215.0 590.0,210.0 580.0,205.0 570.0,210.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:600.0px 231.0px;animation:growUp 280ms ease-out 364ms both">
+    <polygon points="600.0,231.0 610.0,226.0 610.0,224.0 600.0,229.0"  fill="#161B22"/>
+    <polygon points="600.0,231.0 590.0,226.0 590.0,224.0 600.0,229.0" fill="#161B22"/>
+    <polygon points="600.0,229.0 610.0,224.0 600.0,219.0 590.0,224.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:620.0px 231.0px;animation:growUp 280ms ease-out 378ms both">
+    <polygon points="620.0,231.0 630.0,226.0 630.0,224.0 620.0,229.0"  fill="#161B22"/>
+    <polygon points="620.0,231.0 610.0,226.0 610.0,224.0 620.0,229.0" fill="#161B22"/>
+    <polygon points="620.0,229.0 630.0,224.0 620.0,219.0 610.0,224.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:640.0px 231.0px;animation:growUp 280ms ease-out 392ms both">
+    <polygon points="640.0,231.0 650.0,226.0 650.0,224.0 640.0,229.0"  fill="#161B22"/>
+    <polygon points="640.0,231.0 630.0,226.0 630.0,224.0 640.0,229.0" fill="#161B22"/>
+    <polygon points="640.0,229.0 650.0,224.0 640.0,219.0 630.0,224.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:660.0px 231.0px;animation:growUp 280ms ease-out 406ms both">
+    <polygon points="660.0,231.0 670.0,226.0 670.0,224.0 660.0,229.0"  fill="#161B22"/>
+    <polygon points="660.0,231.0 650.0,226.0 650.0,224.0 660.0,229.0" fill="#161B22"/>
+    <polygon points="660.0,229.0 670.0,224.0 660.0,219.0 650.0,224.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:680.0px 231.0px;animation:growUp 280ms ease-out 420ms both">
+    <polygon points="680.0,231.0 690.0,226.0 690.0,224.0 680.0,229.0"  fill="#161B22"/>
+    <polygon points="680.0,231.0 670.0,226.0 670.0,224.0 680.0,229.0" fill="#161B22"/>
+    <polygon points="680.0,229.0 690.0,224.0 680.0,219.0 670.0,224.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:700.0px 231.0px;animation:growUp 280ms ease-out 434ms both">
+    <polygon points="700.0,231.0 710.0,226.0 710.0,224.0 700.0,229.0"  fill="#161B22"/>
+    <polygon points="700.0,231.0 690.0,226.0 690.0,224.0 700.0,229.0" fill="#161B22"/>
+    <polygon points="700.0,229.0 710.0,224.0 700.0,219.0 690.0,224.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:590.0px 236.0px;animation:growUp 280ms ease-out 364ms both">
+    <polygon points="590.0,236.0 600.0,231.0 600.0,229.0 590.0,234.0"  fill="#161B22"/>
+    <polygon points="590.0,236.0 580.0,231.0 580.0,229.0 590.0,234.0" fill="#161B22"/>
+    <polygon points="590.0,234.0 600.0,229.0 590.0,224.0 580.0,229.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:610.0px 236.0px;animation:growUp 280ms ease-out 378ms both">
+    <polygon points="610.0,236.0 620.0,231.0 620.0,229.0 610.0,234.0"  fill="#161B22"/>
+    <polygon points="610.0,236.0 600.0,231.0 600.0,229.0 610.0,234.0" fill="#161B22"/>
+    <polygon points="610.0,234.0 620.0,229.0 610.0,224.0 600.0,229.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:630.0px 236.0px;animation:growUp 280ms ease-out 392ms both">
+    <polygon points="630.0,236.0 640.0,231.0 640.0,229.0 630.0,234.0"  fill="#161B22"/>
+    <polygon points="630.0,236.0 620.0,231.0 620.0,229.0 630.0,234.0" fill="#161B22"/>
+    <polygon points="630.0,234.0 640.0,229.0 630.0,224.0 620.0,229.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:650.0px 236.0px;animation:growUp 280ms ease-out 406ms both">
+    <polygon points="650.0,236.0 660.0,231.0 660.0,229.0 650.0,234.0"  fill="#161B22"/>
+    <polygon points="650.0,236.0 640.0,231.0 640.0,229.0 650.0,234.0" fill="#161B22"/>
+    <polygon points="650.0,234.0 660.0,229.0 650.0,224.0 640.0,229.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:670.0px 236.0px;animation:growUp 280ms ease-out 420ms both">
+    <polygon points="670.0,236.0 680.0,231.0 680.0,229.0 670.0,234.0"  fill="#161B22"/>
+    <polygon points="670.0,236.0 660.0,231.0 660.0,229.0 670.0,234.0" fill="#161B22"/>
+    <polygon points="670.0,234.0 680.0,229.0 670.0,224.0 660.0,229.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:690.0px 236.0px;animation:growUp 280ms ease-out 434ms both">
+    <polygon points="690.0,236.0 700.0,231.0 700.0,229.0 690.0,234.0"  fill="#161B22"/>
+    <polygon points="690.0,236.0 680.0,231.0 680.0,229.0 690.0,234.0" fill="#161B22"/>
+    <polygon points="690.0,234.0 700.0,229.0 690.0,224.0 680.0,229.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:710.0px 236.0px;animation:growUp 280ms ease-out 448ms both">
+    <polygon points="710.0,236.0 720.0,231.0 720.0,229.0 710.0,234.0"  fill="#161B22"/>
+    <polygon points="710.0,236.0 700.0,231.0 700.0,229.0 710.0,234.0" fill="#161B22"/>
+    <polygon points="710.0,234.0 720.0,229.0 710.0,224.0 700.0,229.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:600.0px 241.0px;animation:growUp 280ms ease-out 378ms both">
+    <polygon points="600.0,241.0 610.0,236.0 610.0,234.0 600.0,239.0"  fill="#161B22"/>
+    <polygon points="600.0,241.0 590.0,236.0 590.0,234.0 600.0,239.0" fill="#161B22"/>
+    <polygon points="600.0,239.0 610.0,234.0 600.0,229.0 590.0,234.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:620.0px 241.0px;animation:growUp 280ms ease-out 392ms both">
+    <polygon points="620.0,241.0 630.0,236.0 630.0,234.0 620.0,239.0"  fill="#161B22"/>
+    <polygon points="620.0,241.0 610.0,236.0 610.0,234.0 620.0,239.0" fill="#161B22"/>
+    <polygon points="620.0,239.0 630.0,234.0 620.0,229.0 610.0,234.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:640.0px 241.0px;animation:growUp 280ms ease-out 406ms both">
+    <polygon points="640.0,241.0 650.0,236.0 650.0,234.0 640.0,239.0"  fill="#161B22"/>
+    <polygon points="640.0,241.0 630.0,236.0 630.0,234.0 640.0,239.0" fill="#161B22"/>
+    <polygon points="640.0,239.0 650.0,234.0 640.0,229.0 630.0,234.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:660.0px 241.0px;animation:growUp 280ms ease-out 420ms both">
+    <polygon points="660.0,241.0 670.0,236.0 670.0,234.0 660.0,239.0"  fill="#161B22"/>
+    <polygon points="660.0,241.0 650.0,236.0 650.0,234.0 660.0,239.0" fill="#161B22"/>
+    <polygon points="660.0,239.0 670.0,234.0 660.0,229.0 650.0,234.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:680.0px 241.0px;animation:growUp 280ms ease-out 434ms both">
+    <polygon points="680.0,241.0 690.0,236.0 690.0,234.0 680.0,239.0"  fill="#161B22"/>
+    <polygon points="680.0,241.0 670.0,236.0 670.0,234.0 680.0,239.0" fill="#161B22"/>
+    <polygon points="680.0,239.0 690.0,234.0 680.0,229.0 670.0,234.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:700.0px 241.0px;animation:growUp 280ms ease-out 448ms both">
+    <polygon points="700.0,241.0 710.0,236.0 710.0,234.0 700.0,239.0"  fill="#161B22"/>
+    <polygon points="700.0,241.0 690.0,236.0 690.0,234.0 700.0,239.0" fill="#161B22"/>
+    <polygon points="700.0,239.0 710.0,234.0 700.0,229.0 690.0,234.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:720.0px 241.0px;animation:growUp 280ms ease-out 462ms both">
+    <polygon points="720.0,241.0 730.0,236.0 730.0,234.0 720.0,239.0"  fill="#161B22"/>
+    <polygon points="720.0,241.0 710.0,236.0 710.0,234.0 720.0,239.0" fill="#161B22"/>
+    <polygon points="720.0,239.0 730.0,234.0 720.0,229.0 710.0,234.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:610.0px 246.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 392ms both">
+    <polygon points="610.0,246.0 620.0,241.0 620.0,225.0 610.0,230.0"  fill="#003A4D"/>
+    <polygon points="610.0,246.0 600.0,241.0 600.0,225.0 610.0,230.0" fill="#002633"/>
+    <polygon points="610.0,230.0 620.0,225.0 610.0,220.0 600.0,225.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:630.0px 246.0px;animation:growUp 280ms ease-out 406ms both">
+    <polygon points="630.0,246.0 640.0,241.0 640.0,239.0 630.0,244.0"  fill="#161B22"/>
+    <polygon points="630.0,246.0 620.0,241.0 620.0,239.0 630.0,244.0" fill="#161B22"/>
+    <polygon points="630.0,244.0 640.0,239.0 630.0,234.0 620.0,239.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:650.0px 246.0px;animation:growUp 280ms ease-out 420ms both">
+    <polygon points="650.0,246.0 660.0,241.0 660.0,239.0 650.0,244.0"  fill="#161B22"/>
+    <polygon points="650.0,246.0 640.0,241.0 640.0,239.0 650.0,244.0" fill="#161B22"/>
+    <polygon points="650.0,244.0 660.0,239.0 650.0,234.0 640.0,239.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:670.0px 246.0px;animation:growUp 280ms ease-out 434ms both">
+    <polygon points="670.0,246.0 680.0,241.0 680.0,239.0 670.0,244.0"  fill="#161B22"/>
+    <polygon points="670.0,246.0 660.0,241.0 660.0,239.0 670.0,244.0" fill="#161B22"/>
+    <polygon points="670.0,244.0 680.0,239.0 670.0,234.0 660.0,239.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:690.0px 246.0px;animation:growUp 280ms ease-out 448ms both">
+    <polygon points="690.0,246.0 700.0,241.0 700.0,239.0 690.0,244.0"  fill="#161B22"/>
+    <polygon points="690.0,246.0 680.0,241.0 680.0,239.0 690.0,244.0" fill="#161B22"/>
+    <polygon points="690.0,244.0 700.0,239.0 690.0,234.0 680.0,239.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:710.0px 246.0px;animation:growUp 280ms ease-out 462ms both">
+    <polygon points="710.0,246.0 720.0,241.0 720.0,239.0 710.0,244.0"  fill="#161B22"/>
+    <polygon points="710.0,246.0 700.0,241.0 700.0,239.0 710.0,244.0" fill="#161B22"/>
+    <polygon points="710.0,244.0 720.0,239.0 710.0,234.0 700.0,239.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:730.0px 246.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 476ms both">
+    <polygon points="730.0,246.0 740.0,241.0 740.0,225.0 730.0,230.0"  fill="#003A4D"/>
+    <polygon points="730.0,246.0 720.0,241.0 720.0,225.0 730.0,230.0" fill="#002633"/>
+    <polygon points="730.0,230.0 740.0,225.0 730.0,220.0 720.0,225.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:620.0px 251.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 406ms both">
+    <polygon points="620.0,251.0 630.0,246.0 630.0,230.0 620.0,235.0"  fill="#003A4D"/>
+    <polygon points="620.0,251.0 610.0,246.0 610.0,230.0 620.0,235.0" fill="#002633"/>
+    <polygon points="620.0,235.0 630.0,230.0 620.0,225.0 610.0,230.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:640.0px 251.0px;animation:growUp 280ms ease-out 420ms both">
+    <polygon points="640.0,251.0 650.0,246.0 650.0,244.0 640.0,249.0"  fill="#161B22"/>
+    <polygon points="640.0,251.0 630.0,246.0 630.0,244.0 640.0,249.0" fill="#161B22"/>
+    <polygon points="640.0,249.0 650.0,244.0 640.0,239.0 630.0,244.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:660.0px 251.0px;animation:growUp 280ms ease-out 434ms both">
+    <polygon points="660.0,251.0 670.0,246.0 670.0,244.0 660.0,249.0"  fill="#161B22"/>
+    <polygon points="660.0,251.0 650.0,246.0 650.0,244.0 660.0,249.0" fill="#161B22"/>
+    <polygon points="660.0,249.0 670.0,244.0 660.0,239.0 650.0,244.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:680.0px 251.0px;animation:growUp 280ms ease-out 448ms both">
+    <polygon points="680.0,251.0 690.0,246.0 690.0,244.0 680.0,249.0"  fill="#161B22"/>
+    <polygon points="680.0,251.0 670.0,246.0 670.0,244.0 680.0,249.0" fill="#161B22"/>
+    <polygon points="680.0,249.0 690.0,244.0 680.0,239.0 670.0,244.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:700.0px 251.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 462ms both">
+    <polygon points="700.0,251.0 710.0,246.0 710.0,230.0 700.0,235.0"  fill="#003A4D"/>
+    <polygon points="700.0,251.0 690.0,246.0 690.0,230.0 700.0,235.0" fill="#002633"/>
+    <polygon points="700.0,235.0 710.0,230.0 700.0,225.0 690.0,230.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:720.0px 251.0px;animation:growUp 280ms ease-out 476ms both">
+    <polygon points="720.0,251.0 730.0,246.0 730.0,244.0 720.0,249.0"  fill="#161B22"/>
+    <polygon points="720.0,251.0 710.0,246.0 710.0,244.0 720.0,249.0" fill="#161B22"/>
+    <polygon points="720.0,249.0 730.0,244.0 720.0,239.0 710.0,244.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:740.0px 251.0px;animation:growUp 280ms ease-out 490ms both">
+    <polygon points="740.0,251.0 750.0,246.0 750.0,244.0 740.0,249.0"  fill="#161B22"/>
+    <polygon points="740.0,251.0 730.0,246.0 730.0,244.0 740.0,249.0" fill="#161B22"/>
+    <polygon points="740.0,249.0 750.0,244.0 740.0,239.0 730.0,244.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:630.0px 256.0px;animation:growUp 280ms ease-out 420ms both">
+    <polygon points="630.0,256.0 640.0,251.0 640.0,249.0 630.0,254.0"  fill="#161B22"/>
+    <polygon points="630.0,256.0 620.0,251.0 620.0,249.0 630.0,254.0" fill="#161B22"/>
+    <polygon points="630.0,254.0 640.0,249.0 630.0,244.0 620.0,249.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:650.0px 256.0px;animation:growUp 280ms ease-out 434ms both">
+    <polygon points="650.0,256.0 660.0,251.0 660.0,249.0 650.0,254.0"  fill="#161B22"/>
+    <polygon points="650.0,256.0 640.0,251.0 640.0,249.0 650.0,254.0" fill="#161B22"/>
+    <polygon points="650.0,254.0 660.0,249.0 650.0,244.0 640.0,249.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:670.0px 256.0px;animation:growUp 280ms ease-out 448ms both">
+    <polygon points="670.0,256.0 680.0,251.0 680.0,249.0 670.0,254.0"  fill="#161B22"/>
+    <polygon points="670.0,256.0 660.0,251.0 660.0,249.0 670.0,254.0" fill="#161B22"/>
+    <polygon points="670.0,254.0 680.0,249.0 670.0,244.0 660.0,249.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:690.0px 256.0px;animation:growUp 280ms ease-out 462ms both">
+    <polygon points="690.0,256.0 700.0,251.0 700.0,249.0 690.0,254.0"  fill="#161B22"/>
+    <polygon points="690.0,256.0 680.0,251.0 680.0,249.0 690.0,254.0" fill="#161B22"/>
+    <polygon points="690.0,254.0 700.0,249.0 690.0,244.0 680.0,249.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:710.0px 256.0px;animation:growUp 280ms ease-out 476ms both">
+    <polygon points="710.0,256.0 720.0,251.0 720.0,249.0 710.0,254.0"  fill="#161B22"/>
+    <polygon points="710.0,256.0 700.0,251.0 700.0,249.0 710.0,254.0" fill="#161B22"/>
+    <polygon points="710.0,254.0 720.0,249.0 710.0,244.0 700.0,249.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:730.0px 256.0px;animation:growUp 280ms ease-out 490ms both">
+    <polygon points="730.0,256.0 740.0,251.0 740.0,249.0 730.0,254.0"  fill="#161B22"/>
+    <polygon points="730.0,256.0 720.0,251.0 720.0,249.0 730.0,254.0" fill="#161B22"/>
+    <polygon points="730.0,254.0 740.0,249.0 730.0,244.0 720.0,249.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:750.0px 256.0px;animation:growUp 280ms ease-out 504ms both">
+    <polygon points="750.0,256.0 760.0,251.0 760.0,249.0 750.0,254.0"  fill="#161B22"/>
+    <polygon points="750.0,256.0 740.0,251.0 740.0,249.0 750.0,254.0" fill="#161B22"/>
+    <polygon points="750.0,254.0 760.0,249.0 750.0,244.0 740.0,249.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:640.0px 261.0px;animation:growUp 280ms ease-out 434ms both">
+    <polygon points="640.0,261.0 650.0,256.0 650.0,254.0 640.0,259.0"  fill="#161B22"/>
+    <polygon points="640.0,261.0 630.0,256.0 630.0,254.0 640.0,259.0" fill="#161B22"/>
+    <polygon points="640.0,259.0 650.0,254.0 640.0,249.0 630.0,254.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:660.0px 261.0px;animation:growUp 280ms ease-out 448ms both">
+    <polygon points="660.0,261.0 670.0,256.0 670.0,254.0 660.0,259.0"  fill="#161B22"/>
+    <polygon points="660.0,261.0 650.0,256.0 650.0,254.0 660.0,259.0" fill="#161B22"/>
+    <polygon points="660.0,259.0 670.0,254.0 660.0,249.0 650.0,254.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:680.0px 261.0px;animation:growUp 280ms ease-out 462ms both">
+    <polygon points="680.0,261.0 690.0,256.0 690.0,254.0 680.0,259.0"  fill="#161B22"/>
+    <polygon points="680.0,261.0 670.0,256.0 670.0,254.0 680.0,259.0" fill="#161B22"/>
+    <polygon points="680.0,259.0 690.0,254.0 680.0,249.0 670.0,254.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:700.0px 261.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 476ms both">
+    <polygon points="700.0,261.0 710.0,256.0 710.0,240.0 700.0,245.0"  fill="#003A4D"/>
+    <polygon points="700.0,261.0 690.0,256.0 690.0,240.0 700.0,245.0" fill="#002633"/>
+    <polygon points="700.0,245.0 710.0,240.0 700.0,235.0 690.0,240.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:720.0px 261.0px;animation:growUp 280ms ease-out 490ms both">
+    <polygon points="720.0,261.0 730.0,256.0 730.0,254.0 720.0,259.0"  fill="#161B22"/>
+    <polygon points="720.0,261.0 710.0,256.0 710.0,254.0 720.0,259.0" fill="#161B22"/>
+    <polygon points="720.0,259.0 730.0,254.0 720.0,249.0 710.0,254.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:740.0px 261.0px;animation:growUp 280ms ease-out 504ms both">
+    <polygon points="740.0,261.0 750.0,256.0 750.0,254.0 740.0,259.0"  fill="#161B22"/>
+    <polygon points="740.0,261.0 730.0,256.0 730.0,254.0 740.0,259.0" fill="#161B22"/>
+    <polygon points="740.0,259.0 750.0,254.0 740.0,249.0 730.0,254.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:760.0px 261.0px;animation:growUp 280ms ease-out 518ms both">
+    <polygon points="760.0,261.0 770.0,256.0 770.0,254.0 760.0,259.0"  fill="#161B22"/>
+    <polygon points="760.0,261.0 750.0,256.0 750.0,254.0 760.0,259.0" fill="#161B22"/>
+    <polygon points="760.0,259.0 770.0,254.0 760.0,249.0 750.0,254.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:650.0px 266.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 448ms both">
+    <polygon points="650.0,266.0 660.0,261.0 660.0,245.0 650.0,250.0"  fill="#003A4D"/>
+    <polygon points="650.0,266.0 640.0,261.0 640.0,245.0 650.0,250.0" fill="#002633"/>
+    <polygon points="650.0,250.0 660.0,245.0 650.0,240.0 640.0,245.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:670.0px 266.0px;animation:growUp 280ms ease-out 462ms both">
+    <polygon points="670.0,266.0 680.0,261.0 680.0,259.0 670.0,264.0"  fill="#161B22"/>
+    <polygon points="670.0,266.0 660.0,261.0 660.0,259.0 670.0,264.0" fill="#161B22"/>
+    <polygon points="670.0,264.0 680.0,259.0 670.0,254.0 660.0,259.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:690.0px 266.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 476ms both">
+    <polygon points="690.0,266.0 700.0,261.0 700.0,245.0 690.0,250.0"  fill="#003A4D"/>
+    <polygon points="690.0,266.0 680.0,261.0 680.0,245.0 690.0,250.0" fill="#002633"/>
+    <polygon points="690.0,250.0 700.0,245.0 690.0,240.0 680.0,245.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:710.0px 266.0px;animation:growUp 280ms ease-out 490ms both">
+    <polygon points="710.0,266.0 720.0,261.0 720.0,259.0 710.0,264.0"  fill="#161B22"/>
+    <polygon points="710.0,266.0 700.0,261.0 700.0,259.0 710.0,264.0" fill="#161B22"/>
+    <polygon points="710.0,264.0 720.0,259.0 710.0,254.0 700.0,259.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:730.0px 266.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 504ms both">
+    <polygon points="730.0,266.0 740.0,261.0 740.0,245.0 730.0,250.0"  fill="#003A4D"/>
+    <polygon points="730.0,266.0 720.0,261.0 720.0,245.0 730.0,250.0" fill="#002633"/>
+    <polygon points="730.0,250.0 740.0,245.0 730.0,240.0 720.0,245.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:750.0px 266.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 518ms both">
+    <polygon points="750.0,266.0 760.0,261.0 760.0,245.0 750.0,250.0"  fill="#003A4D"/>
+    <polygon points="750.0,266.0 740.0,261.0 740.0,245.0 750.0,250.0" fill="#002633"/>
+    <polygon points="750.0,250.0 760.0,245.0 750.0,240.0 740.0,245.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:770.0px 266.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 532ms both">
+    <polygon points="770.0,266.0 780.0,261.0 780.0,245.0 770.0,250.0"  fill="#003A4D"/>
+    <polygon points="770.0,266.0 760.0,261.0 760.0,245.0 770.0,250.0" fill="#002633"/>
+    <polygon points="770.0,250.0 780.0,245.0 770.0,240.0 760.0,245.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:660.0px 271.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 462ms both">
+    <polygon points="660.0,271.0 670.0,266.0 670.0,250.0 660.0,255.0"  fill="#003A4D"/>
+    <polygon points="660.0,271.0 650.0,266.0 650.0,250.0 660.0,255.0" fill="#002633"/>
+    <polygon points="660.0,255.0 670.0,250.0 660.0,245.0 650.0,250.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:680.0px 271.0px;animation:growUp 280ms ease-out 476ms both">
+    <polygon points="680.0,271.0 690.0,266.0 690.0,264.0 680.0,269.0"  fill="#161B22"/>
+    <polygon points="680.0,271.0 670.0,266.0 670.0,264.0 680.0,269.0" fill="#161B22"/>
+    <polygon points="680.0,269.0 690.0,264.0 680.0,259.0 670.0,264.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:700.0px 271.0px;animation:growUp 280ms ease-out 490ms both">
+    <polygon points="700.0,271.0 710.0,266.0 710.0,264.0 700.0,269.0"  fill="#161B22"/>
+    <polygon points="700.0,271.0 690.0,266.0 690.0,264.0 700.0,269.0" fill="#161B22"/>
+    <polygon points="700.0,269.0 710.0,264.0 700.0,259.0 690.0,264.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:720.0px 271.0px;animation:growUp 280ms ease-out 504ms both">
+    <polygon points="720.0,271.0 730.0,266.0 730.0,264.0 720.0,269.0"  fill="#161B22"/>
+    <polygon points="720.0,271.0 710.0,266.0 710.0,264.0 720.0,269.0" fill="#161B22"/>
+    <polygon points="720.0,269.0 730.0,264.0 720.0,259.0 710.0,264.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:740.0px 271.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 518ms both">
+    <polygon points="740.0,271.0 750.0,266.0 750.0,250.0 740.0,255.0"  fill="#003A4D"/>
+    <polygon points="740.0,271.0 730.0,266.0 730.0,250.0 740.0,255.0" fill="#002633"/>
+    <polygon points="740.0,255.0 750.0,250.0 740.0,245.0 730.0,250.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:760.0px 271.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 532ms both">
+    <polygon points="760.0,271.0 770.0,266.0 770.0,250.0 760.0,255.0"  fill="#003A4D"/>
+    <polygon points="760.0,271.0 750.0,266.0 750.0,250.0 760.0,255.0" fill="#002633"/>
+    <polygon points="760.0,255.0 770.0,250.0 760.0,245.0 750.0,250.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:780.0px 271.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 546ms both">
+    <polygon points="780.0,271.0 790.0,266.0 790.0,250.0 780.0,255.0"  fill="#003A4D"/>
+    <polygon points="780.0,271.0 770.0,266.0 770.0,250.0 780.0,255.0" fill="#002633"/>
+    <polygon points="780.0,255.0 790.0,250.0 780.0,245.0 770.0,250.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:670.0px 276.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 476ms both">
+    <polygon points="670.0,276.0 680.0,271.0 680.0,255.0 670.0,260.0"  fill="#003A4D"/>
+    <polygon points="670.0,276.0 660.0,271.0 660.0,255.0 670.0,260.0" fill="#002633"/>
+    <polygon points="670.0,260.0 680.0,255.0 670.0,250.0 660.0,255.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:690.0px 276.0px;animation:growUp 280ms ease-out 490ms both">
+    <polygon points="690.0,276.0 700.0,271.0 700.0,269.0 690.0,274.0"  fill="#161B22"/>
+    <polygon points="690.0,276.0 680.0,271.0 680.0,269.0 690.0,274.0" fill="#161B22"/>
+    <polygon points="690.0,274.0 700.0,269.0 690.0,264.0 680.0,269.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:710.0px 276.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 504ms both">
+    <polygon points="710.0,276.0 720.0,271.0 720.0,255.0 710.0,260.0"  fill="#003A4D"/>
+    <polygon points="710.0,276.0 700.0,271.0 700.0,255.0 710.0,260.0" fill="#002633"/>
+    <polygon points="710.0,260.0 720.0,255.0 710.0,250.0 700.0,255.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:730.0px 276.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 518ms both">
+    <polygon points="730.0,276.0 740.0,271.0 740.0,255.0 730.0,260.0"  fill="#003A4D"/>
+    <polygon points="730.0,276.0 720.0,271.0 720.0,255.0 730.0,260.0" fill="#002633"/>
+    <polygon points="730.0,260.0 740.0,255.0 730.0,250.0 720.0,255.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:750.0px 276.0px;animation:growUp 420ms cubic-bezier(0.34, 1.56, 0.64, 1) 532ms both">
+    <polygon points="750.0,276.0 760.0,271.0 760.0,221.0 750.0,226.0"  fill="#009DB8"/>
+    <polygon points="750.0,276.0 740.0,271.0 740.0,221.0 750.0,226.0" fill="#00879B"/>
+    <polygon points="750.0,226.0 760.0,221.0 750.0,216.0 740.0,221.0" fill="#00B8D4"/>
+  </g>
+<g style="transform-origin:770.0px 276.0px;animation:growUp 280ms ease-out 546ms both">
+    <polygon points="770.0,276.0 780.0,271.0 780.0,269.0 770.0,274.0"  fill="#161B22"/>
+    <polygon points="770.0,276.0 760.0,271.0 760.0,269.0 770.0,274.0" fill="#161B22"/>
+    <polygon points="770.0,274.0 780.0,269.0 770.0,264.0 760.0,269.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:790.0px 276.0px;animation:growUp 280ms ease-out 560ms both">
+    <polygon points="790.0,276.0 800.0,271.0 800.0,269.0 790.0,274.0"  fill="#161B22"/>
+    <polygon points="790.0,276.0 780.0,271.0 780.0,269.0 790.0,274.0" fill="#161B22"/>
+    <polygon points="790.0,274.0 800.0,269.0 790.0,264.0 780.0,269.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:680.0px 281.0px;animation:growUp 280ms ease-out 490ms both">
+    <polygon points="680.0,281.0 690.0,276.0 690.0,274.0 680.0,279.0"  fill="#161B22"/>
+    <polygon points="680.0,281.0 670.0,276.0 670.0,274.0 680.0,279.0" fill="#161B22"/>
+    <polygon points="680.0,279.0 690.0,274.0 680.0,269.0 670.0,274.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:700.0px 281.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 504ms both">
+    <polygon points="700.0,281.0 710.0,276.0 710.0,260.0 700.0,265.0"  fill="#003A4D"/>
+    <polygon points="700.0,281.0 690.0,276.0 690.0,260.0 700.0,265.0" fill="#002633"/>
+    <polygon points="700.0,265.0 710.0,260.0 700.0,255.0 690.0,260.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:720.0px 281.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 518ms both">
+    <polygon points="720.0,281.0 730.0,276.0 730.0,260.0 720.0,265.0"  fill="#003A4D"/>
+    <polygon points="720.0,281.0 710.0,276.0 710.0,260.0 720.0,265.0" fill="#002633"/>
+    <polygon points="720.0,265.0 730.0,260.0 720.0,255.0 710.0,260.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:740.0px 281.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 532ms both">
+    <polygon points="740.0,281.0 750.0,276.0 750.0,244.0 740.0,249.0"  fill="#006B82"/>
+    <polygon points="740.0,281.0 730.0,276.0 730.0,244.0 740.0,249.0" fill="#005466"/>
+    <polygon points="740.0,249.0 750.0,244.0 740.0,239.0 730.0,244.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:760.0px 281.0px;animation:growUp 280ms ease-out 546ms both">
+    <polygon points="760.0,281.0 770.0,276.0 770.0,274.0 760.0,279.0"  fill="#161B22"/>
+    <polygon points="760.0,281.0 750.0,276.0 750.0,274.0 760.0,279.0" fill="#161B22"/>
+    <polygon points="760.0,279.0 770.0,274.0 760.0,269.0 750.0,274.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:780.0px 281.0px;animation:growUp 280ms ease-out 560ms both">
+    <polygon points="780.0,281.0 790.0,276.0 790.0,274.0 780.0,279.0"  fill="#161B22"/>
+    <polygon points="780.0,281.0 770.0,276.0 770.0,274.0 780.0,279.0" fill="#161B22"/>
+    <polygon points="780.0,279.0 790.0,274.0 780.0,269.0 770.0,274.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:800.0px 281.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 574ms both">
+    <polygon points="800.0,281.0 810.0,276.0 810.0,244.0 800.0,249.0"  fill="#006B82"/>
+    <polygon points="800.0,281.0 790.0,276.0 790.0,244.0 800.0,249.0" fill="#005466"/>
+    <polygon points="800.0,249.0 810.0,244.0 800.0,239.0 790.0,244.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:690.0px 286.0px;animation:growUp 280ms ease-out 504ms both">
+    <polygon points="690.0,286.0 700.0,281.0 700.0,279.0 690.0,284.0"  fill="#161B22"/>
+    <polygon points="690.0,286.0 680.0,281.0 680.0,279.0 690.0,284.0" fill="#161B22"/>
+    <polygon points="690.0,284.0 700.0,279.0 690.0,274.0 680.0,279.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:710.0px 286.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 518ms both">
+    <polygon points="710.0,286.0 720.0,281.0 720.0,265.0 710.0,270.0"  fill="#003A4D"/>
+    <polygon points="710.0,286.0 700.0,281.0 700.0,265.0 710.0,270.0" fill="#002633"/>
+    <polygon points="710.0,270.0 720.0,265.0 710.0,260.0 700.0,265.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:730.0px 286.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 532ms both">
+    <polygon points="730.0,286.0 740.0,281.0 740.0,249.0 730.0,254.0"  fill="#006B82"/>
+    <polygon points="730.0,286.0 720.0,281.0 720.0,249.0 730.0,254.0" fill="#005466"/>
+    <polygon points="730.0,254.0 740.0,249.0 730.0,244.0 720.0,249.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:750.0px 286.0px;animation:growUp 280ms ease-out 546ms both">
+    <polygon points="750.0,286.0 760.0,281.0 760.0,279.0 750.0,284.0"  fill="#161B22"/>
+    <polygon points="750.0,286.0 740.0,281.0 740.0,279.0 750.0,284.0" fill="#161B22"/>
+    <polygon points="750.0,284.0 760.0,279.0 750.0,274.0 740.0,279.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:770.0px 286.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 560ms both">
+    <polygon points="770.0,286.0 780.0,281.0 780.0,265.0 770.0,270.0"  fill="#003A4D"/>
+    <polygon points="770.0,286.0 760.0,281.0 760.0,265.0 770.0,270.0" fill="#002633"/>
+    <polygon points="770.0,270.0 780.0,265.0 770.0,260.0 760.0,265.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:790.0px 286.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 574ms both">
+    <polygon points="790.0,286.0 800.0,281.0 800.0,265.0 790.0,270.0"  fill="#003A4D"/>
+    <polygon points="790.0,286.0 780.0,281.0 780.0,265.0 790.0,270.0" fill="#002633"/>
+    <polygon points="790.0,270.0 800.0,265.0 790.0,260.0 780.0,265.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:810.0px 286.0px;animation:growUp 280ms ease-out 588ms both">
+    <polygon points="810.0,286.0 820.0,281.0 820.0,279.0 810.0,284.0"  fill="#161B22"/>
+    <polygon points="810.0,286.0 800.0,281.0 800.0,279.0 810.0,284.0" fill="#161B22"/>
+    <polygon points="810.0,284.0 820.0,279.0 810.0,274.0 800.0,279.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:700.0px 291.0px;animation:growUp 280ms ease-out 518ms both">
+    <polygon points="700.0,291.0 710.0,286.0 710.0,284.0 700.0,289.0"  fill="#161B22"/>
+    <polygon points="700.0,291.0 690.0,286.0 690.0,284.0 700.0,289.0" fill="#161B22"/>
+    <polygon points="700.0,289.0 710.0,284.0 700.0,279.0 690.0,284.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:720.0px 291.0px;animation:growUp 440ms cubic-bezier(0.34, 1.56, 0.64, 1) 532ms both" filter="url(#glow)">
+    <polygon points="720.0,291.0 730.0,286.0 730.0,218.0 720.0,223.0"  fill="#00BEE0"/>
+    <polygon points="720.0,291.0 710.0,286.0 710.0,218.0 720.0,223.0" fill="#00A8C7"/>
+    <polygon points="720.0,223.0 730.0,218.0 720.0,213.0 710.0,218.0" fill="#00D9FF"/>
+  </g>
+<g style="transform-origin:740.0px 291.0px;animation:growUp 280ms ease-out 546ms both">
+    <polygon points="740.0,291.0 750.0,286.0 750.0,284.0 740.0,289.0"  fill="#161B22"/>
+    <polygon points="740.0,291.0 730.0,286.0 730.0,284.0 740.0,289.0" fill="#161B22"/>
+    <polygon points="740.0,289.0 750.0,284.0 740.0,279.0 730.0,284.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:760.0px 291.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 560ms both">
+    <polygon points="760.0,291.0 770.0,286.0 770.0,270.0 760.0,275.0"  fill="#003A4D"/>
+    <polygon points="760.0,291.0 750.0,286.0 750.0,270.0 760.0,275.0" fill="#002633"/>
+    <polygon points="760.0,275.0 770.0,270.0 760.0,265.0 750.0,270.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:780.0px 291.0px;animation:growUp 280ms ease-out 574ms both">
+    <polygon points="780.0,291.0 790.0,286.0 790.0,284.0 780.0,289.0"  fill="#161B22"/>
+    <polygon points="780.0,291.0 770.0,286.0 770.0,284.0 780.0,289.0" fill="#161B22"/>
+    <polygon points="780.0,289.0 790.0,284.0 780.0,279.0 770.0,284.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:800.0px 291.0px;animation:growUp 280ms ease-out 588ms both">
+    <polygon points="800.0,291.0 810.0,286.0 810.0,284.0 800.0,289.0"  fill="#161B22"/>
+    <polygon points="800.0,291.0 790.0,286.0 790.0,284.0 800.0,289.0" fill="#161B22"/>
+    <polygon points="800.0,289.0 810.0,284.0 800.0,279.0 790.0,284.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:820.0px 291.0px;animation:growUp 280ms ease-out 602ms both">
+    <polygon points="820.0,291.0 830.0,286.0 830.0,284.0 820.0,289.0"  fill="#161B22"/>
+    <polygon points="820.0,291.0 810.0,286.0 810.0,284.0 820.0,289.0" fill="#161B22"/>
+    <polygon points="820.0,289.0 830.0,284.0 820.0,279.0 810.0,284.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:710.0px 296.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 532ms both">
+    <polygon points="710.0,296.0 720.0,291.0 720.0,275.0 710.0,280.0"  fill="#003A4D"/>
+    <polygon points="710.0,296.0 700.0,291.0 700.0,275.0 710.0,280.0" fill="#002633"/>
+    <polygon points="710.0,280.0 720.0,275.0 710.0,270.0 700.0,275.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:730.0px 296.0px;animation:growUp 280ms ease-out 546ms both">
+    <polygon points="730.0,296.0 740.0,291.0 740.0,289.0 730.0,294.0"  fill="#161B22"/>
+    <polygon points="730.0,296.0 720.0,291.0 720.0,289.0 730.0,294.0" fill="#161B22"/>
+    <polygon points="730.0,294.0 740.0,289.0 730.0,284.0 720.0,289.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:750.0px 296.0px;animation:growUp 280ms ease-out 560ms both">
+    <polygon points="750.0,296.0 760.0,291.0 760.0,289.0 750.0,294.0"  fill="#161B22"/>
+    <polygon points="750.0,296.0 740.0,291.0 740.0,289.0 750.0,294.0" fill="#161B22"/>
+    <polygon points="750.0,294.0 760.0,289.0 750.0,284.0 740.0,289.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:770.0px 296.0px;animation:growUp 280ms ease-out 574ms both">
+    <polygon points="770.0,296.0 780.0,291.0 780.0,289.0 770.0,294.0"  fill="#161B22"/>
+    <polygon points="770.0,296.0 760.0,291.0 760.0,289.0 770.0,294.0" fill="#161B22"/>
+    <polygon points="770.0,294.0 780.0,289.0 770.0,284.0 760.0,289.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:790.0px 296.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 588ms both">
+    <polygon points="790.0,296.0 800.0,291.0 800.0,275.0 790.0,280.0"  fill="#003A4D"/>
+    <polygon points="790.0,296.0 780.0,291.0 780.0,275.0 790.0,280.0" fill="#002633"/>
+    <polygon points="790.0,280.0 800.0,275.0 790.0,270.0 780.0,275.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:810.0px 296.0px;animation:growUp 280ms ease-out 602ms both">
+    <polygon points="810.0,296.0 820.0,291.0 820.0,289.0 810.0,294.0"  fill="#161B22"/>
+    <polygon points="810.0,296.0 800.0,291.0 800.0,289.0 810.0,294.0" fill="#161B22"/>
+    <polygon points="810.0,294.0 820.0,289.0 810.0,284.0 800.0,289.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:830.0px 296.0px;animation:growUp 280ms ease-out 616ms both">
+    <polygon points="830.0,296.0 840.0,291.0 840.0,289.0 830.0,294.0"  fill="#161B22"/>
+    <polygon points="830.0,296.0 820.0,291.0 820.0,289.0 830.0,294.0" fill="#161B22"/>
+    <polygon points="830.0,294.0 840.0,289.0 830.0,284.0 820.0,289.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:720.0px 301.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 546ms both">
+    <polygon points="720.0,301.0 730.0,296.0 730.0,280.0 720.0,285.0"  fill="#003A4D"/>
+    <polygon points="720.0,301.0 710.0,296.0 710.0,280.0 720.0,285.0" fill="#002633"/>
+    <polygon points="720.0,285.0 730.0,280.0 720.0,275.0 710.0,280.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:740.0px 301.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 560ms both">
+    <polygon points="740.0,301.0 750.0,296.0 750.0,280.0 740.0,285.0"  fill="#003A4D"/>
+    <polygon points="740.0,301.0 730.0,296.0 730.0,280.0 740.0,285.0" fill="#002633"/>
+    <polygon points="740.0,285.0 750.0,280.0 740.0,275.0 730.0,280.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:760.0px 301.0px;animation:growUp 280ms ease-out 574ms both">
+    <polygon points="760.0,301.0 770.0,296.0 770.0,294.0 760.0,299.0"  fill="#161B22"/>
+    <polygon points="760.0,301.0 750.0,296.0 750.0,294.0 760.0,299.0" fill="#161B22"/>
+    <polygon points="760.0,299.0 770.0,294.0 760.0,289.0 750.0,294.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:780.0px 301.0px;animation:growUp 280ms ease-out 588ms both">
+    <polygon points="780.0,301.0 790.0,296.0 790.0,294.0 780.0,299.0"  fill="#161B22"/>
+    <polygon points="780.0,301.0 770.0,296.0 770.0,294.0 780.0,299.0" fill="#161B22"/>
+    <polygon points="780.0,299.0 790.0,294.0 780.0,289.0 770.0,294.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:800.0px 301.0px;animation:growUp 280ms ease-out 602ms both">
+    <polygon points="800.0,301.0 810.0,296.0 810.0,294.0 800.0,299.0"  fill="#161B22"/>
+    <polygon points="800.0,301.0 790.0,296.0 790.0,294.0 800.0,299.0" fill="#161B22"/>
+    <polygon points="800.0,299.0 810.0,294.0 800.0,289.0 790.0,294.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:820.0px 301.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 616ms both">
+    <polygon points="820.0,301.0 830.0,296.0 830.0,280.0 820.0,285.0"  fill="#003A4D"/>
+    <polygon points="820.0,301.0 810.0,296.0 810.0,280.0 820.0,285.0" fill="#002633"/>
+    <polygon points="820.0,285.0 830.0,280.0 820.0,275.0 810.0,280.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:840.0px 301.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 630ms both">
+    <polygon points="840.0,301.0 850.0,296.0 850.0,280.0 840.0,285.0"  fill="#003A4D"/>
+    <polygon points="840.0,301.0 830.0,296.0 830.0,280.0 840.0,285.0" fill="#002633"/>
+    <polygon points="840.0,285.0 850.0,280.0 840.0,275.0 830.0,280.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:730.0px 306.0px;animation:growUp 280ms ease-out 560ms both">
+    <polygon points="730.0,306.0 740.0,301.0 740.0,299.0 730.0,304.0"  fill="#161B22"/>
+    <polygon points="730.0,306.0 720.0,301.0 720.0,299.0 730.0,304.0" fill="#161B22"/>
+    <polygon points="730.0,304.0 740.0,299.0 730.0,294.0 720.0,299.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:750.0px 306.0px;animation:growUp 280ms ease-out 574ms both">
+    <polygon points="750.0,306.0 760.0,301.0 760.0,299.0 750.0,304.0"  fill="#161B22"/>
+    <polygon points="750.0,306.0 740.0,301.0 740.0,299.0 750.0,304.0" fill="#161B22"/>
+    <polygon points="750.0,304.0 760.0,299.0 750.0,294.0 740.0,299.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:770.0px 306.0px;animation:growUp 280ms ease-out 588ms both">
+    <polygon points="770.0,306.0 780.0,301.0 780.0,299.0 770.0,304.0"  fill="#161B22"/>
+    <polygon points="770.0,306.0 760.0,301.0 760.0,299.0 770.0,304.0" fill="#161B22"/>
+    <polygon points="770.0,304.0 780.0,299.0 770.0,294.0 760.0,299.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:790.0px 306.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 602ms both">
+    <polygon points="790.0,306.0 800.0,301.0 800.0,285.0 790.0,290.0"  fill="#003A4D"/>
+    <polygon points="790.0,306.0 780.0,301.0 780.0,285.0 790.0,290.0" fill="#002633"/>
+    <polygon points="790.0,290.0 800.0,285.0 790.0,280.0 780.0,285.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:810.0px 306.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 616ms both">
+    <polygon points="810.0,306.0 820.0,301.0 820.0,285.0 810.0,290.0"  fill="#003A4D"/>
+    <polygon points="810.0,306.0 800.0,301.0 800.0,285.0 810.0,290.0" fill="#002633"/>
+    <polygon points="810.0,290.0 820.0,285.0 810.0,280.0 800.0,285.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:830.0px 306.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 630ms both">
+    <polygon points="830.0,306.0 840.0,301.0 840.0,285.0 830.0,290.0"  fill="#003A4D"/>
+    <polygon points="830.0,306.0 820.0,301.0 820.0,285.0 830.0,290.0" fill="#002633"/>
+    <polygon points="830.0,290.0 840.0,285.0 830.0,280.0 820.0,285.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:850.0px 306.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 644ms both">
+    <polygon points="850.0,306.0 860.0,301.0 860.0,285.0 850.0,290.0"  fill="#003A4D"/>
+    <polygon points="850.0,306.0 840.0,301.0 840.0,285.0 850.0,290.0" fill="#002633"/>
+    <polygon points="850.0,290.0 860.0,285.0 850.0,280.0 840.0,285.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:740.0px 311.0px;animation:growUp 280ms ease-out 574ms both">
+    <polygon points="740.0,311.0 750.0,306.0 750.0,304.0 740.0,309.0"  fill="#161B22"/>
+    <polygon points="740.0,311.0 730.0,306.0 730.0,304.0 740.0,309.0" fill="#161B22"/>
+    <polygon points="740.0,309.0 750.0,304.0 740.0,299.0 730.0,304.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:760.0px 311.0px;animation:growUp 280ms ease-out 588ms both">
+    <polygon points="760.0,311.0 770.0,306.0 770.0,304.0 760.0,309.0"  fill="#161B22"/>
+    <polygon points="760.0,311.0 750.0,306.0 750.0,304.0 760.0,309.0" fill="#161B22"/>
+    <polygon points="760.0,309.0 770.0,304.0 760.0,299.0 750.0,304.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:780.0px 311.0px;animation:growUp 280ms ease-out 602ms both">
+    <polygon points="780.0,311.0 790.0,306.0 790.0,304.0 780.0,309.0"  fill="#161B22"/>
+    <polygon points="780.0,311.0 770.0,306.0 770.0,304.0 780.0,309.0" fill="#161B22"/>
+    <polygon points="780.0,309.0 790.0,304.0 780.0,299.0 770.0,304.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:800.0px 311.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 616ms both">
+    <polygon points="800.0,311.0 810.0,306.0 810.0,290.0 800.0,295.0"  fill="#003A4D"/>
+    <polygon points="800.0,311.0 790.0,306.0 790.0,290.0 800.0,295.0" fill="#002633"/>
+    <polygon points="800.0,295.0 810.0,290.0 800.0,285.0 790.0,290.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:820.0px 311.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 630ms both">
+    <polygon points="820.0,311.0 830.0,306.0 830.0,290.0 820.0,295.0"  fill="#003A4D"/>
+    <polygon points="820.0,311.0 810.0,306.0 810.0,290.0 820.0,295.0" fill="#002633"/>
+    <polygon points="820.0,295.0 830.0,290.0 820.0,285.0 810.0,290.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:840.0px 311.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 644ms both">
+    <polygon points="840.0,311.0 850.0,306.0 850.0,290.0 840.0,295.0"  fill="#003A4D"/>
+    <polygon points="840.0,311.0 830.0,306.0 830.0,290.0 840.0,295.0" fill="#002633"/>
+    <polygon points="840.0,295.0 850.0,290.0 840.0,285.0 830.0,290.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:860.0px 311.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 658ms both">
+    <polygon points="860.0,311.0 870.0,306.0 870.0,290.0 860.0,295.0"  fill="#003A4D"/>
+    <polygon points="860.0,311.0 850.0,306.0 850.0,290.0 860.0,295.0" fill="#002633"/>
+    <polygon points="860.0,295.0 870.0,290.0 860.0,285.0 850.0,290.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:750.0px 316.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 588ms both">
+    <polygon points="750.0,316.0 760.0,311.0 760.0,295.0 750.0,300.0"  fill="#003A4D"/>
+    <polygon points="750.0,316.0 740.0,311.0 740.0,295.0 750.0,300.0" fill="#002633"/>
+    <polygon points="750.0,300.0 760.0,295.0 750.0,290.0 740.0,295.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:770.0px 316.0px;animation:growUp 280ms ease-out 602ms both">
+    <polygon points="770.0,316.0 780.0,311.0 780.0,309.0 770.0,314.0"  fill="#161B22"/>
+    <polygon points="770.0,316.0 760.0,311.0 760.0,309.0 770.0,314.0" fill="#161B22"/>
+    <polygon points="770.0,314.0 780.0,309.0 770.0,304.0 760.0,309.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:790.0px 316.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 616ms both">
+    <polygon points="790.0,316.0 800.0,311.0 800.0,295.0 790.0,300.0"  fill="#003A4D"/>
+    <polygon points="790.0,316.0 780.0,311.0 780.0,295.0 790.0,300.0" fill="#002633"/>
+    <polygon points="790.0,300.0 800.0,295.0 790.0,290.0 780.0,295.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:810.0px 316.0px;animation:growUp 280ms ease-out 630ms both">
+    <polygon points="810.0,316.0 820.0,311.0 820.0,309.0 810.0,314.0"  fill="#161B22"/>
+    <polygon points="810.0,316.0 800.0,311.0 800.0,309.0 810.0,314.0" fill="#161B22"/>
+    <polygon points="810.0,314.0 820.0,309.0 810.0,304.0 800.0,309.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:830.0px 316.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 644ms both">
+    <polygon points="830.0,316.0 840.0,311.0 840.0,295.0 830.0,300.0"  fill="#003A4D"/>
+    <polygon points="830.0,316.0 820.0,311.0 820.0,295.0 830.0,300.0" fill="#002633"/>
+    <polygon points="830.0,300.0 840.0,295.0 830.0,290.0 820.0,295.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:850.0px 316.0px;animation:growUp 280ms ease-out 658ms both">
+    <polygon points="850.0,316.0 860.0,311.0 860.0,309.0 850.0,314.0"  fill="#161B22"/>
+    <polygon points="850.0,316.0 840.0,311.0 840.0,309.0 850.0,314.0" fill="#161B22"/>
+    <polygon points="850.0,314.0 860.0,309.0 850.0,304.0 840.0,309.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:870.0px 316.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 672ms both">
+    <polygon points="870.0,316.0 880.0,311.0 880.0,295.0 870.0,300.0"  fill="#003A4D"/>
+    <polygon points="870.0,316.0 860.0,311.0 860.0,295.0 870.0,300.0" fill="#002633"/>
+    <polygon points="870.0,300.0 880.0,295.0 870.0,290.0 860.0,295.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:760.0px 321.0px;animation:growUp 280ms ease-out 602ms both">
+    <polygon points="760.0,321.0 770.0,316.0 770.0,314.0 760.0,319.0"  fill="#161B22"/>
+    <polygon points="760.0,321.0 750.0,316.0 750.0,314.0 760.0,319.0" fill="#161B22"/>
+    <polygon points="760.0,319.0 770.0,314.0 760.0,309.0 750.0,314.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:780.0px 321.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 616ms both">
+    <polygon points="780.0,321.0 790.0,316.0 790.0,300.0 780.0,305.0"  fill="#003A4D"/>
+    <polygon points="780.0,321.0 770.0,316.0 770.0,300.0 780.0,305.0" fill="#002633"/>
+    <polygon points="780.0,305.0 790.0,300.0 780.0,295.0 770.0,300.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:800.0px 321.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 630ms both">
+    <polygon points="800.0,321.0 810.0,316.0 810.0,300.0 800.0,305.0"  fill="#003A4D"/>
+    <polygon points="800.0,321.0 790.0,316.0 790.0,300.0 800.0,305.0" fill="#002633"/>
+    <polygon points="800.0,305.0 810.0,300.0 800.0,295.0 790.0,300.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:820.0px 321.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 644ms both">
+    <polygon points="820.0,321.0 830.0,316.0 830.0,300.0 820.0,305.0"  fill="#003A4D"/>
+    <polygon points="820.0,321.0 810.0,316.0 810.0,300.0 820.0,305.0" fill="#002633"/>
+    <polygon points="820.0,305.0 830.0,300.0 820.0,295.0 810.0,300.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:840.0px 321.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 658ms both">
+    <polygon points="840.0,321.0 850.0,316.0 850.0,300.0 840.0,305.0"  fill="#003A4D"/>
+    <polygon points="840.0,321.0 830.0,316.0 830.0,300.0 840.0,305.0" fill="#002633"/>
+    <polygon points="840.0,305.0 850.0,300.0 840.0,295.0 830.0,300.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:860.0px 321.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 672ms both">
+    <polygon points="860.0,321.0 870.0,316.0 870.0,300.0 860.0,305.0"  fill="#003A4D"/>
+    <polygon points="860.0,321.0 850.0,316.0 850.0,300.0 860.0,305.0" fill="#002633"/>
+    <polygon points="860.0,305.0 870.0,300.0 860.0,295.0 850.0,300.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:880.0px 321.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 686ms both">
+    <polygon points="880.0,321.0 890.0,316.0 890.0,300.0 880.0,305.0"  fill="#003A4D"/>
+    <polygon points="880.0,321.0 870.0,316.0 870.0,300.0 880.0,305.0" fill="#002633"/>
+    <polygon points="880.0,305.0 890.0,300.0 880.0,295.0 870.0,300.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:770.0px 326.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 616ms both">
+    <polygon points="770.0,326.0 780.0,321.0 780.0,305.0 770.0,310.0"  fill="#003A4D"/>
+    <polygon points="770.0,326.0 760.0,321.0 760.0,305.0 770.0,310.0" fill="#002633"/>
+    <polygon points="770.0,310.0 780.0,305.0 770.0,300.0 760.0,305.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:790.0px 326.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 630ms both">
+    <polygon points="790.0,326.0 800.0,321.0 800.0,305.0 790.0,310.0"  fill="#003A4D"/>
+    <polygon points="790.0,326.0 780.0,321.0 780.0,305.0 790.0,310.0" fill="#002633"/>
+    <polygon points="790.0,310.0 800.0,305.0 790.0,300.0 780.0,305.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:810.0px 326.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 644ms both">
+    <polygon points="810.0,326.0 820.0,321.0 820.0,305.0 810.0,310.0"  fill="#003A4D"/>
+    <polygon points="810.0,326.0 800.0,321.0 800.0,305.0 810.0,310.0" fill="#002633"/>
+    <polygon points="810.0,310.0 820.0,305.0 810.0,300.0 800.0,305.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:830.0px 326.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 658ms both">
+    <polygon points="830.0,326.0 840.0,321.0 840.0,305.0 830.0,310.0"  fill="#003A4D"/>
+    <polygon points="830.0,326.0 820.0,321.0 820.0,305.0 830.0,310.0" fill="#002633"/>
+    <polygon points="830.0,310.0 840.0,305.0 830.0,300.0 820.0,305.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:850.0px 326.0px;animation:growUp 280ms ease-out 672ms both">
+    <polygon points="850.0,326.0 860.0,321.0 860.0,319.0 850.0,324.0"  fill="#161B22"/>
+    <polygon points="850.0,326.0 840.0,321.0 840.0,319.0 850.0,324.0" fill="#161B22"/>
+    <polygon points="850.0,324.0 860.0,319.0 850.0,314.0 840.0,319.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:870.0px 326.0px;animation:growUp 280ms ease-out 686ms both">
+    <polygon points="870.0,326.0 880.0,321.0 880.0,319.0 870.0,324.0"  fill="#161B22"/>
+    <polygon points="870.0,326.0 860.0,321.0 860.0,319.0 870.0,324.0" fill="#161B22"/>
+    <polygon points="870.0,324.0 880.0,319.0 870.0,314.0 860.0,319.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:890.0px 326.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 700ms both">
+    <polygon points="890.0,326.0 900.0,321.0 900.0,305.0 890.0,310.0"  fill="#003A4D"/>
+    <polygon points="890.0,326.0 880.0,321.0 880.0,305.0 890.0,310.0" fill="#002633"/>
+    <polygon points="890.0,310.0 900.0,305.0 890.0,300.0 880.0,305.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:780.0px 331.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 630ms both">
+    <polygon points="780.0,331.0 790.0,326.0 790.0,310.0 780.0,315.0"  fill="#003A4D"/>
+    <polygon points="780.0,331.0 770.0,326.0 770.0,310.0 780.0,315.0" fill="#002633"/>
+    <polygon points="780.0,315.0 790.0,310.0 780.0,305.0 770.0,310.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:800.0px 331.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 644ms both">
+    <polygon points="800.0,331.0 810.0,326.0 810.0,310.0 800.0,315.0"  fill="#003A4D"/>
+    <polygon points="800.0,331.0 790.0,326.0 790.0,310.0 800.0,315.0" fill="#002633"/>
+    <polygon points="800.0,315.0 810.0,310.0 800.0,305.0 790.0,310.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:820.0px 331.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 658ms both">
+    <polygon points="820.0,331.0 830.0,326.0 830.0,310.0 820.0,315.0"  fill="#003A4D"/>
+    <polygon points="820.0,331.0 810.0,326.0 810.0,310.0 820.0,315.0" fill="#002633"/>
+    <polygon points="820.0,315.0 830.0,310.0 820.0,305.0 810.0,310.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:840.0px 331.0px;animation:growUp 280ms ease-out 672ms both">
+    <polygon points="840.0,331.0 850.0,326.0 850.0,324.0 840.0,329.0"  fill="#161B22"/>
+    <polygon points="840.0,331.0 830.0,326.0 830.0,324.0 840.0,329.0" fill="#161B22"/>
+    <polygon points="840.0,329.0 850.0,324.0 840.0,319.0 830.0,324.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:860.0px 331.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 686ms both">
+    <polygon points="860.0,331.0 870.0,326.0 870.0,310.0 860.0,315.0"  fill="#003A4D"/>
+    <polygon points="860.0,331.0 850.0,326.0 850.0,310.0 860.0,315.0" fill="#002633"/>
+    <polygon points="860.0,315.0 870.0,310.0 860.0,305.0 850.0,310.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:880.0px 331.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 700ms both">
+    <polygon points="880.0,331.0 890.0,326.0 890.0,310.0 880.0,315.0"  fill="#003A4D"/>
+    <polygon points="880.0,331.0 870.0,326.0 870.0,310.0 880.0,315.0" fill="#002633"/>
+    <polygon points="880.0,315.0 890.0,310.0 880.0,305.0 870.0,310.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:900.0px 331.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 714ms both">
+    <polygon points="900.0,331.0 910.0,326.0 910.0,310.0 900.0,315.0"  fill="#003A4D"/>
+    <polygon points="900.0,331.0 890.0,326.0 890.0,310.0 900.0,315.0" fill="#002633"/>
+    <polygon points="900.0,315.0 910.0,310.0 900.0,305.0 890.0,310.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:790.0px 336.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 644ms both">
+    <polygon points="790.0,336.0 800.0,331.0 800.0,315.0 790.0,320.0"  fill="#003A4D"/>
+    <polygon points="790.0,336.0 780.0,331.0 780.0,315.0 790.0,320.0" fill="#002633"/>
+    <polygon points="790.0,320.0 800.0,315.0 790.0,310.0 780.0,315.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:810.0px 336.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 658ms both">
+    <polygon points="810.0,336.0 820.0,331.0 820.0,315.0 810.0,320.0"  fill="#003A4D"/>
+    <polygon points="810.0,336.0 800.0,331.0 800.0,315.0 810.0,320.0" fill="#002633"/>
+    <polygon points="810.0,320.0 820.0,315.0 810.0,310.0 800.0,315.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:830.0px 336.0px;animation:growUp 280ms ease-out 672ms both">
+    <polygon points="830.0,336.0 840.0,331.0 840.0,329.0 830.0,334.0"  fill="#161B22"/>
+    <polygon points="830.0,336.0 820.0,331.0 820.0,329.0 830.0,334.0" fill="#161B22"/>
+    <polygon points="830.0,334.0 840.0,329.0 830.0,324.0 820.0,329.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:850.0px 336.0px;animation:growUp 280ms ease-out 686ms both">
+    <polygon points="850.0,336.0 860.0,331.0 860.0,329.0 850.0,334.0"  fill="#161B22"/>
+    <polygon points="850.0,336.0 840.0,331.0 840.0,329.0 850.0,334.0" fill="#161B22"/>
+    <polygon points="850.0,334.0 860.0,329.0 850.0,324.0 840.0,329.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:870.0px 336.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 700ms both">
+    <polygon points="870.0,336.0 880.0,331.0 880.0,315.0 870.0,320.0"  fill="#003A4D"/>
+    <polygon points="870.0,336.0 860.0,331.0 860.0,315.0 870.0,320.0" fill="#002633"/>
+    <polygon points="870.0,320.0 880.0,315.0 870.0,310.0 860.0,315.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:890.0px 336.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 714ms both">
+    <polygon points="890.0,336.0 900.0,331.0 900.0,315.0 890.0,320.0"  fill="#003A4D"/>
+    <polygon points="890.0,336.0 880.0,331.0 880.0,315.0 890.0,320.0" fill="#002633"/>
+    <polygon points="890.0,320.0 900.0,315.0 890.0,310.0 880.0,315.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:910.0px 336.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 728ms both">
+    <polygon points="910.0,336.0 920.0,331.0 920.0,299.0 910.0,304.0"  fill="#006B82"/>
+    <polygon points="910.0,336.0 900.0,331.0 900.0,299.0 910.0,304.0" fill="#005466"/>
+    <polygon points="910.0,304.0 920.0,299.0 910.0,294.0 900.0,299.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:800.0px 341.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 658ms both">
+    <polygon points="800.0,341.0 810.0,336.0 810.0,320.0 800.0,325.0"  fill="#003A4D"/>
+    <polygon points="800.0,341.0 790.0,336.0 790.0,320.0 800.0,325.0" fill="#002633"/>
+    <polygon points="800.0,325.0 810.0,320.0 800.0,315.0 790.0,320.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:820.0px 341.0px;animation:growUp 280ms ease-out 672ms both">
+    <polygon points="820.0,341.0 830.0,336.0 830.0,334.0 820.0,339.0"  fill="#161B22"/>
+    <polygon points="820.0,341.0 810.0,336.0 810.0,334.0 820.0,339.0" fill="#161B22"/>
+    <polygon points="820.0,339.0 830.0,334.0 820.0,329.0 810.0,334.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:840.0px 341.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 686ms both">
+    <polygon points="840.0,341.0 850.0,336.0 850.0,320.0 840.0,325.0"  fill="#003A4D"/>
+    <polygon points="840.0,341.0 830.0,336.0 830.0,320.0 840.0,325.0" fill="#002633"/>
+    <polygon points="840.0,325.0 850.0,320.0 840.0,315.0 830.0,320.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:860.0px 341.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 700ms both">
+    <polygon points="860.0,341.0 870.0,336.0 870.0,320.0 860.0,325.0"  fill="#003A4D"/>
+    <polygon points="860.0,341.0 850.0,336.0 850.0,320.0 860.0,325.0" fill="#002633"/>
+    <polygon points="860.0,325.0 870.0,320.0 860.0,315.0 850.0,320.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:880.0px 341.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 714ms both">
+    <polygon points="880.0,341.0 890.0,336.0 890.0,320.0 880.0,325.0"  fill="#003A4D"/>
+    <polygon points="880.0,341.0 870.0,336.0 870.0,320.0 880.0,325.0" fill="#002633"/>
+    <polygon points="880.0,325.0 890.0,320.0 880.0,315.0 870.0,320.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:900.0px 341.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 728ms both">
+    <polygon points="900.0,341.0 910.0,336.0 910.0,304.0 900.0,309.0"  fill="#006B82"/>
+    <polygon points="900.0,341.0 890.0,336.0 890.0,304.0 900.0,309.0" fill="#005466"/>
+    <polygon points="900.0,309.0 910.0,304.0 900.0,299.0 890.0,304.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:810.0px 346.0px;animation:growUp 280ms ease-out 672ms both">
+    <polygon points="810.0,346.0 820.0,341.0 820.0,339.0 810.0,344.0"  fill="#161B22"/>
+    <polygon points="810.0,346.0 800.0,341.0 800.0,339.0 810.0,344.0" fill="#161B22"/>
+    <polygon points="810.0,344.0 820.0,339.0 810.0,334.0 800.0,339.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:830.0px 346.0px;animation:growUp 280ms ease-out 686ms both">
+    <polygon points="830.0,346.0 840.0,341.0 840.0,339.0 830.0,344.0"  fill="#161B22"/>
+    <polygon points="830.0,346.0 820.0,341.0 820.0,339.0 830.0,344.0" fill="#161B22"/>
+    <polygon points="830.0,344.0 840.0,339.0 830.0,334.0 820.0,339.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:850.0px 346.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 700ms both">
+    <polygon points="850.0,346.0 860.0,341.0 860.0,325.0 850.0,330.0"  fill="#003A4D"/>
+    <polygon points="850.0,346.0 840.0,341.0 840.0,325.0 850.0,330.0" fill="#002633"/>
+    <polygon points="850.0,330.0 860.0,325.0 850.0,320.0 840.0,325.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:870.0px 346.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 714ms both">
+    <polygon points="870.0,346.0 880.0,341.0 880.0,325.0 870.0,330.0"  fill="#003A4D"/>
+    <polygon points="870.0,346.0 860.0,341.0 860.0,325.0 870.0,330.0" fill="#002633"/>
+    <polygon points="870.0,330.0 880.0,325.0 870.0,320.0 860.0,325.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:890.0px 346.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 728ms both">
+    <polygon points="890.0,346.0 900.0,341.0 900.0,325.0 890.0,330.0"  fill="#003A4D"/>
+    <polygon points="890.0,346.0 880.0,341.0 880.0,325.0 890.0,330.0" fill="#002633"/>
+    <polygon points="890.0,330.0 900.0,325.0 890.0,320.0 880.0,325.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:820.0px 351.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 686ms both">
+    <polygon points="820.0,351.0 830.0,346.0 830.0,330.0 820.0,335.0"  fill="#003A4D"/>
+    <polygon points="820.0,351.0 810.0,346.0 810.0,330.0 820.0,335.0" fill="#002633"/>
+    <polygon points="820.0,335.0 830.0,330.0 820.0,325.0 810.0,330.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:840.0px 351.0px;animation:growUp 380ms cubic-bezier(0.34, 1.56, 0.64, 1) 700ms both">
+    <polygon points="840.0,351.0 850.0,346.0 850.0,330.0 840.0,335.0"  fill="#003A4D"/>
+    <polygon points="840.0,351.0 830.0,346.0 830.0,330.0 840.0,335.0" fill="#002633"/>
+    <polygon points="840.0,335.0 850.0,330.0 840.0,325.0 830.0,330.0" fill="#004E64"/>
+  </g>
+<g style="transform-origin:860.0px 351.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 714ms both">
+    <polygon points="860.0,351.0 870.0,346.0 870.0,314.0 860.0,319.0"  fill="#006B82"/>
+    <polygon points="860.0,351.0 850.0,346.0 850.0,314.0 860.0,319.0" fill="#005466"/>
+    <polygon points="860.0,319.0 870.0,314.0 860.0,309.0 850.0,314.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:880.0px 351.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 728ms both">
+    <polygon points="880.0,351.0 890.0,346.0 890.0,314.0 880.0,319.0"  fill="#006B82"/>
+    <polygon points="880.0,351.0 870.0,346.0 870.0,314.0 880.0,319.0" fill="#005466"/>
+    <polygon points="880.0,319.0 890.0,314.0 880.0,309.0 870.0,314.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:830.0px 356.0px;animation:growUp 280ms ease-out 700ms both">
+    <polygon points="830.0,356.0 840.0,351.0 840.0,349.0 830.0,354.0"  fill="#161B22"/>
+    <polygon points="830.0,356.0 820.0,351.0 820.0,349.0 830.0,354.0" fill="#161B22"/>
+    <polygon points="830.0,354.0 840.0,349.0 830.0,344.0 820.0,349.0" fill="#161B22"/>
+  </g>
+<g style="transform-origin:850.0px 356.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 714ms both">
+    <polygon points="850.0,356.0 860.0,351.0 860.0,319.0 850.0,324.0"  fill="#006B82"/>
+    <polygon points="850.0,356.0 840.0,351.0 840.0,319.0 850.0,324.0" fill="#005466"/>
+    <polygon points="850.0,324.0 860.0,319.0 850.0,314.0 840.0,319.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:870.0px 356.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 728ms both">
+    <polygon points="870.0,356.0 880.0,351.0 880.0,319.0 870.0,324.0"  fill="#006B82"/>
+    <polygon points="870.0,356.0 860.0,351.0 860.0,319.0 870.0,324.0" fill="#005466"/>
+    <polygon points="870.0,324.0 880.0,319.0 870.0,314.0 860.0,319.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:840.0px 361.0px;animation:growUp 420ms cubic-bezier(0.34, 1.56, 0.64, 1) 714ms both">
+    <polygon points="840.0,361.0 850.0,356.0 850.0,306.0 840.0,311.0"  fill="#009DB8"/>
+    <polygon points="840.0,361.0 830.0,356.0 830.0,306.0 840.0,311.0" fill="#00879B"/>
+    <polygon points="840.0,311.0 850.0,306.0 840.0,301.0 830.0,306.0" fill="#00B8D4"/>
+  </g>
+<g style="transform-origin:860.0px 361.0px;animation:growUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1) 728ms both">
+    <polygon points="860.0,361.0 870.0,356.0 870.0,324.0 860.0,329.0"  fill="#006B82"/>
+    <polygon points="860.0,361.0 850.0,356.0 850.0,324.0 860.0,329.0" fill="#005466"/>
+    <polygon points="860.0,329.0 870.0,324.0 860.0,319.0 850.0,324.0" fill="#008099"/>
+  </g>
+<g style="transform-origin:850.0px 366.0px;animation:growUp 280ms ease-out 728ms both">
+    <polygon points="850.0,366.0 860.0,361.0 860.0,359.0 850.0,364.0"  fill="#161B22"/>
+    <polygon points="850.0,366.0 840.0,361.0 840.0,359.0 850.0,364.0" fill="#161B22"/>
+    <polygon points="850.0,364.0 860.0,359.0 850.0,354.0 840.0,359.0" fill="#161B22"/>
+  </g>
+
+<!-- Language Donut Chart -->
+<g><path d="M92.00 214.00 A58 58 0 1 1 46.37 307.81 L63.68 294.23 A36 36 0 1 0 92.00 236.00Z" fill="#00D9FF" style="animation:fadeIn 400ms ease-out 800ms both"/><path d="M46.37 307.81 A58 58 0 0 1 34.83 262.24 L56.51 265.94 A36 36 0 0 0 63.68 294.23Z" fill="#F7C948" style="animation:fadeIn 400ms ease-out 880ms both"/><path d="M34.83 262.24 A58 58 0 0 1 55.87 226.63 L69.58 243.84 A36 36 0 0 0 56.51 265.94Z" fill="#FF7043" style="animation:fadeIn 400ms ease-out 960ms both"/><path d="M55.87 226.63 A58 58 0 0 1 74.04 216.85 L80.85 237.77 A36 36 0 0 0 69.58 243.84Z" fill="#FF8C42" style="animation:fadeIn 400ms ease-out 1040ms both"/><path d="M74.04 216.85 A58 58 0 0 1 83.14 214.68 L86.50 236.42 A36 36 0 0 0 80.85 237.77Z" fill="#FF6B6B" style="animation:fadeIn 400ms ease-out 1120ms both"/><path d="M83.14 214.68 A58 58 0 0 1 92.00 214.00 L92.00 236.00 A36 36 0 0 0 86.50 236.42Z" fill="#BD5FFF" style="animation:fadeIn 400ms ease-out 1200ms both"/><g style="animation:fadeIn 300ms ease-out 900ms both">
+      <rect x="166" y="215" width="9" height="9" rx="2" fill="#00D9FF"/>
+      <text x="179" y="223" fill="#00D9FF" font-size="11" font-family="'SF Mono',Consolas,monospace">TypeScript</text>
+      <text x="282" y="223" fill="#3A5566" font-size="10" font-family="'SF Mono',Consolas,monospace" text-anchor="end">64.4%</text>
+    </g><g style="animation:fadeIn 300ms ease-out 980ms both">
+      <rect x="166" y="236" width="9" height="9" rx="2" fill="#F7C948"/>
+      <text x="179" y="244" fill="#00D9FF" font-size="11" font-family="'SF Mono',Consolas,monospace">JavaScript</text>
+      <text x="282" y="244" fill="#3A5566" font-size="10" font-family="'SF Mono',Consolas,monospace" text-anchor="end">13.3%</text>
+    </g><g style="animation:fadeIn 300ms ease-out 1060ms both">
+      <rect x="166" y="257" width="9" height="9" rx="2" fill="#FF7043"/>
+      <text x="179" y="265" fill="#00D9FF" font-size="11" font-family="'SF Mono',Consolas,monospace">Rust</text>
+      <text x="282" y="265" fill="#3A5566" font-size="10" font-family="'SF Mono',Consolas,monospace" text-anchor="end">11.6%</text>
+    </g><g style="animation:fadeIn 300ms ease-out 1140ms both">
+      <rect x="166" y="278" width="9" height="9" rx="2" fill="#FF8C42"/>
+      <text x="179" y="286" fill="#00D9FF" font-size="11" font-family="'SF Mono',Consolas,monospace">HTML</text>
+      <text x="282" y="286" fill="#3A5566" font-size="10" font-family="'SF Mono',Consolas,monospace" text-anchor="end">5.7%</text>
+    </g><g style="animation:fadeIn 300ms ease-out 1220ms both">
+      <rect x="166" y="299" width="9" height="9" rx="2" fill="#FF6B6B"/>
+      <text x="179" y="307" fill="#00D9FF" font-size="11" font-family="'SF Mono',Consolas,monospace">Python</text>
+      <text x="282" y="307" fill="#3A5566" font-size="10" font-family="'SF Mono',Consolas,monospace" text-anchor="end">2.6%</text>
+    </g><g style="animation:fadeIn 300ms ease-out 1300ms both">
+      <rect x="166" y="320" width="9" height="9" rx="2" fill="#BD5FFF"/>
+      <text x="179" y="328" fill="#00D9FF" font-size="11" font-family="'SF Mono',Consolas,monospace">CSS</text>
+      <text x="282" y="328" fill="#3A5566" font-size="10" font-family="'SF Mono',Consolas,monospace" text-anchor="end">2.4%</text>
+    </g></g>
+</svg>
