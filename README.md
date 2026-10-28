@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Senior Software Engineer</strong><br/>
-  Web, Mobile & Desktop · Security · AI Agent Engineering
+  Web, Mobile & Desktop Engineering · AI Agent Harnesses & Multi-Agent Systems
 </p>
 
 I'm a Senior Software Engineer with 7+ years of production experience building web, mobile, and desktop products across fintech, blockchain, and other business domains.
