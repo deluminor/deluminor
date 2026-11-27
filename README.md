@@ -54,6 +54,7 @@ I work across product and platform layers — from user-facing applications to s
 
 ### Backend & Integrations
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=flat-square)
